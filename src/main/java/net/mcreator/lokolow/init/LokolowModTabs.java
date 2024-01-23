@@ -48,5 +48,17 @@ public class LokolowModTabs {
 			tabData.accept(LokolowModBlocks.MUIEORE.get().asItem());
 			tabData.accept(LokolowModBlocks.TOMEORE.get().asItem());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(LokolowModItems.CAPITALISTAAXE.get());
+			tabData.accept(LokolowModItems.CAPITALISTA_PICKAXE.get());
+			tabData.accept(LokolowModItems.MAIGODAXE.get());
+			tabData.accept(LokolowModItems.MAIGODPICKAXE.get());
+			tabData.accept(LokolowModItems.MUIEAXE.get());
+			tabData.accept(LokolowModItems.MUIEHOE.get());
+			tabData.accept(LokolowModItems.TOMEAXE.get());
+			tabData.accept(LokolowModItems.TOMEPICKAXE.get());
+			tabData.accept(LokolowModItems.VERYCAPITALISTASHOVEL.get());
+		}
 	}
 }

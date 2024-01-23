@@ -131,21 +131,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_coal": "2024-01-23 11:16:19 -0300"
-    },
-    "done": true
-  },
   "minecraft:adventure/salvage_sherd": {
     "criteria": {
       "has_sherd": "2024-01-23 11:15:28 -0300"
     },
     "done": false
   },
-  "minecraft:recipes/decorations/smoker": {
+  "minecraft:recipes/decorations/decorated_pot_simple": {
     "criteria": {
-      "has_furnace": "2024-01-23 11:16:22 -0300"
+      "has_brick": "2024-01-23 11:15:28 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2024-01-23 11:16:19 -0300"
     },
     "done": true
   },
@@ -155,15 +155,111 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2024-01-23 11:16:22 -0300"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2024-01-23 11:16:30 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/decorated_pot_simple": {
+  "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
-      "has_brick": "2024-01-23 11:15:28 -0300"
+      "has_oxeye_daisy": "2024-01-23 14:04:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2024-01-23 14:04:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2024-01-23 14:04:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2024-01-23 14:04:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2024-01-23 14:04:38 -0300"
     },
     "done": true
   },

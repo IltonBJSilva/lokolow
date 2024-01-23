@@ -253,6 +253,109 @@
         ]
       },
       "path": "~/Mineiros"
+    },
+    {
+      "name": "CapitalistaNuggets",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalista_nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/capitalista_nuggets.json",
+          "src/main/java/net/mcreator/lokolow/item/CapitalistaNuggetsItem.java"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "Muie",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/item/MuieItem.java",
+          "src/main/resources/assets/lokolow/models/item/muie.json"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "Maigod",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maigod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/maigod.json",
+          "src/main/java/net/mcreator/lokolow/item/MaigodItem.java"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "VeryCapitalista",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "very_capitalista",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/very_capitalista.json",
+          "src/main/java/net/mcreator/lokolow/item/VeryCapitalistaItem.java"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "CapitalistaRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalista_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/capitalista_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Tome",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/item/TomeItem.java",
+          "src/main/resources/assets/lokolow/models/item/tome.json"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "TomeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/tome_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -267,21 +370,26 @@
       "item.lokolow.lokow_krueger_spawn_egg": "Lokow Krueger Spawn Egg",
       "entity.lokolow.lokolow_villager": "Lokolow Villager",
       "item.lokolow.lejuki_wandinha_spawn_egg": "Lejuki Wandinha Spawn Egg",
+      "item.lokolow.maigod": "Maigod",
       "block.lokolow.tomeore": "Tomeore",
       "item.lokolow.guleskate_spawn_egg": "Guleskate Spawn Egg",
       "item.lokolow.rubio_kn_spawn_egg": "Rubio Kn Spawn Egg",
       "entity.lokolow.capitalista": "Capitalista",
       "item.lokolow.lokolow_villager_spawn_egg": "Lokolow Villager Spawn Egg",
       "item.lokolow.lejuki_spawn_egg": "Lejuki Spawn Egg",
+      "item.lokolow.capitalista_nuggets": "Capitalista Nuggets",
       "item.lokolow.lokolowpresidente_spawn_egg": "Lokolowpresidente Spawn Egg",
       "item.lokolow.lokolow_inverso_spawn_egg": "Lokolow Inverso Spawn Egg",
+      "item.lokolow.tome": "Tome",
       "entity.lokolow.guleskate": "Guleskate",
+      "item.lokolow.muie": "Muie",
       "block.lokolow.maigodeore": "Maigodeore",
       "entity.lokolow.lokolowpresidente": "Lokolowpresidente",
       "entity.lokolow.lokow_krueger": "Lokow Krueger",
       "entity.lokolow.lejuki_wandinha": "Lejuki Wandinha",
       "entity.lokolow.helliiot": "Helliiot",
       "item.lokolow.helliiot_spawn_egg": "Helliiot Spawn Egg",
+      "item.lokolow.very_capitalista": "Very Capitalista",
       "item.lokolow.capitalista_spawn_egg": "Capitalista Spawn Egg",
       "entity.lokolow.rubio_kn": "Rubio Kn"
     }
@@ -307,6 +415,10 @@
       },
       {
         "name": "Build",
+        "children": []
+      },
+      {
+        "name": "Recipes",
         "children": []
       }
     ]

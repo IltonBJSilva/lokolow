@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "capitalista_pickaxe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Capitalista Pickaxe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "harvestLevel": 40,
+    "efficiency": 40.0,
+    "attackSpeed": 30.0,
+    "enchantability": 40,
+    "damageVsEntity": 40.0,
+    "usageCount": 5000,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Capitalistaore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

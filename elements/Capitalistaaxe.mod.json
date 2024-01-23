@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "capitalista_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Capitalista Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "harvestLevel": 80,
+    "efficiency": 80.0,
+    "attackSpeed": 50.0,
+    "enchantability": 40,
+    "damageVsEntity": 80.0,
+    "usageCount": 6000,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Capitalistaore"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
