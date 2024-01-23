@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "Lokolow",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lokolow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/client/renderer/LokolowRenderer.java",
+          "src/main/java/net/mcreator/lokolow/entity/LokolowEntity.java",
+          "src/main/resources/assets/lokolow/models/item/lokolow_spawn_egg.json",
+          "src/main/resources/data/lokolow/forge/biome_modifier/lokolow_biome_modifier.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.lokolow.lokolow_spawn_egg": "Lokolow Spawn Egg",
+      "entity.lokolow.lokolow": "Lokolow"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lokolow",
+    "modName": "Lokolow",
+    "version": "1.0.0",
+    "author": "ilton, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.lokolow",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
