@@ -185,33 +185,105 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Capitalistaore",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalistaore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/block/capitalistaore.json",
+          "src/main/resources/assets/lokolow/models/item/capitalistaore.json",
+          "src/main/resources/assets/lokolow/blockstates/capitalistaore.json",
+          "src/main/java/net/mcreator/lokolow/block/CapitalistaoreBlock.java"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "Maigodeore",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maigodeore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/blockstates/maigodeore.json",
+          "src/main/resources/assets/lokolow/models/item/maigodeore.json",
+          "src/main/resources/assets/lokolow/models/block/maigodeore.json",
+          "src/main/java/net/mcreator/lokolow/block/MaigodeoreBlock.java"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "Muieore",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muieore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/muieore.json",
+          "src/main/resources/assets/lokolow/models/block/muieore.json",
+          "src/main/resources/assets/lokolow/blockstates/muieore.json",
+          "src/main/java/net/mcreator/lokolow/block/MuieoreBlock.java"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "Tomeore",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomeore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/block/TomeoreBlock.java",
+          "src/main/resources/assets/lokolow/models/block/tomeore.json",
+          "src/main/resources/assets/lokolow/blockstates/tomeore.json",
+          "src/main/resources/assets/lokolow/models/item/tomeore.json"
+        ]
+      },
+      "path": "~/Mineiros"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.lokolow.lokolow_inverso_spawn_egg": "Lokolow Inverso Spawn Egg",
       "entity.lokolow.lokolow_inverso": "Lokolow Inverso",
       "entity.lokolow.lejuki": "Lejuki",
       "entity.lokolow.lejuki_villager": "Lejuki Villager",
-      "entity.lokolow.guleskate": "Guleskate",
+      "block.lokolow.capitalistaore": "Capitalistaore",
+      "block.lokolow.muieore": "Muieore",
       "item.lokolow.lokow_krueger_spawn_egg": "Lokow Krueger Spawn Egg",
       "entity.lokolow.lokolow_villager": "Lokolow Villager",
       "item.lokolow.lejuki_wandinha_spawn_egg": "Lejuki Wandinha Spawn Egg",
-      "entity.lokolow.lokolowpresidente": "Lokolowpresidente",
-      "entity.lokolow.lokow_krueger": "Lokow Krueger",
+      "block.lokolow.tomeore": "Tomeore",
       "item.lokolow.guleskate_spawn_egg": "Guleskate Spawn Egg",
-      "entity.lokolow.lejuki_wandinha": "Lejuki Wandinha",
       "item.lokolow.rubio_kn_spawn_egg": "Rubio Kn Spawn Egg",
-      "entity.lokolow.helliiot": "Helliiot",
       "entity.lokolow.capitalista": "Capitalista",
       "item.lokolow.lokolow_villager_spawn_egg": "Lokolow Villager Spawn Egg",
       "item.lokolow.lejuki_spawn_egg": "Lejuki Spawn Egg",
+      "item.lokolow.lokolowpresidente_spawn_egg": "Lokolowpresidente Spawn Egg",
+      "item.lokolow.lokolow_inverso_spawn_egg": "Lokolow Inverso Spawn Egg",
+      "entity.lokolow.guleskate": "Guleskate",
+      "block.lokolow.maigodeore": "Maigodeore",
+      "entity.lokolow.lokolowpresidente": "Lokolowpresidente",
+      "entity.lokolow.lokow_krueger": "Lokow Krueger",
+      "entity.lokolow.lejuki_wandinha": "Lejuki Wandinha",
+      "entity.lokolow.helliiot": "Helliiot",
       "item.lokolow.helliiot_spawn_egg": "Helliiot Spawn Egg",
       "item.lokolow.capitalista_spawn_egg": "Capitalista Spawn Egg",
-      "entity.lokolow.rubio_kn": "Rubio Kn",
-      "item.lokolow.lokolowpresidente_spawn_egg": "Lokolowpresidente Spawn Egg"
+      "entity.lokolow.rubio_kn": "Rubio Kn"
     }
   },
   "foldersRoot": {

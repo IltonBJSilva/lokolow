@@ -32,6 +32,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.lokolow.init.LokolowModTabs;
 import net.mcreator.lokolow.init.LokolowModItems;
 import net.mcreator.lokolow.init.LokolowModEntities;
+import net.mcreator.lokolow.init.LokolowModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,6 +51,8 @@ public class LokolowMod {
 	public LokolowMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		LokolowModBlocks.REGISTRY.register(bus);
 
 		LokolowModItems.REGISTRY.register(bus);
 		LokolowModEntities.REGISTRY.register(bus);

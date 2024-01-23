@@ -34,5 +34,9 @@ public class LokolowModTabs {
 			tabData.accept(LokolowModItems.LEJUKI_WANDINHA_SPAWN_EGG.get());
 			tabData.accept(LokolowModItems.RUBIO_KN_SPAWN_EGG.get());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(LokolowModBlocks.CAPITALISTAORE.get().asItem());
+		}
 	}
 }

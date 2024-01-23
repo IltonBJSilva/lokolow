@@ -9,7 +9,9 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.lokolow.LokolowMod;
 
@@ -25,4 +27,12 @@ public class LokolowModItems {
 	public static final RegistryObject<Item> LEJUKI_SPAWN_EGG = REGISTRY.register("lejuki_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LEJUKI, -6750004, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> LEJUKI_WANDINHA_SPAWN_EGG = REGISTRY.register("lejuki_wandinha_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LEJUKI_WANDINHA, -16777216, -6750055, new Item.Properties()));
 	public static final RegistryObject<Item> RUBIO_KN_SPAWN_EGG = REGISTRY.register("rubio_kn_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.RUBIO_KN, -16737793, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> CAPITALISTAORE = block(LokolowModBlocks.CAPITALISTAORE);
+	public static final RegistryObject<Item> MAIGODEORE = block(LokolowModBlocks.MAIGODEORE);
+	public static final RegistryObject<Item> MUIEORE = block(LokolowModBlocks.MUIEORE);
+	public static final RegistryObject<Item> TOMEORE = block(LokolowModBlocks.TOMEORE);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }

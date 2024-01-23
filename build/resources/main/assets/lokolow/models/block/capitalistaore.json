@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lokolow:block/capitalista_ore",
+    "up": "lokolow:block/capitalista_ore",
+    "north": "lokolow:block/capitalista_ore",
+    "east": "lokolow:block/capitalista_ore",
+    "south": "lokolow:block/capitalista_ore",
+    "west": "lokolow:block/capitalista_ore",
+    "particle": "lokolow:block/capitalista_ore"
+  },
+  "render_type": "solid"
+}

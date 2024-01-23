@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lokolow:block/muieore",
+    "up": "lokolow:block/muieore",
+    "north": "lokolow:block/muieore",
+    "east": "lokolow:block/muieore",
+    "south": "lokolow:block/muieore",
+    "west": "lokolow:block/muieore",
+    "particle": "lokolow:block/muieore"
+  },
+  "render_type": "solid"
+}

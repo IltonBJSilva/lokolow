@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lokolow:block/maigodeore",
+    "up": "lokolow:block/maigodeore",
+    "north": "lokolow:block/maigodeore",
+    "east": "lokolow:block/maigodeore",
+    "south": "lokolow:block/maigodeore",
+    "west": "lokolow:block/maigodeore",
+    "particle": "lokolow:block/maigodeore"
+  },
+  "render_type": "solid"
+}

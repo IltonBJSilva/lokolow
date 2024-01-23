@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lokolow:block/tome_ore",
+    "up": "lokolow:block/tome_ore",
+    "north": "lokolow:block/tome_ore",
+    "east": "lokolow:block/tome_ore",
+    "south": "lokolow:block/tome_ore",
+    "west": "lokolow:block/tome_ore",
+    "particle": "lokolow:block/tome_ore"
+  },
+  "render_type": "solid"
+}
