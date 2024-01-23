@@ -42,11 +42,11 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "DECORATIONS"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Muie"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -67,7 +67,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "Items.NETHERITE_PICKAXE"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

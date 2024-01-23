@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "lokolow:capitalista_nuggets"
+    }
+  },
+  "result": {
+    "item": "lokolow:very_capitalista",
+    "count": 2
+  }
+}

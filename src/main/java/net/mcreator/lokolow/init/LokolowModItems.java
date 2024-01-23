@@ -13,6 +13,11 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.lokolow.item.VeryCapitalistaItem;
+import net.mcreator.lokolow.item.TomeItem;
+import net.mcreator.lokolow.item.MuieItem;
+import net.mcreator.lokolow.item.MaigodItem;
+import net.mcreator.lokolow.item.CapitalistaNuggetsItem;
 import net.mcreator.lokolow.LokolowMod;
 
 public class LokolowModItems {
@@ -31,6 +36,11 @@ public class LokolowModItems {
 	public static final RegistryObject<Item> MAIGODEORE = block(LokolowModBlocks.MAIGODEORE);
 	public static final RegistryObject<Item> MUIEORE = block(LokolowModBlocks.MUIEORE);
 	public static final RegistryObject<Item> TOMEORE = block(LokolowModBlocks.TOMEORE);
+	public static final RegistryObject<Item> CAPITALISTA_NUGGETS = REGISTRY.register("capitalista_nuggets", () -> new CapitalistaNuggetsItem());
+	public static final RegistryObject<Item> MUIE = REGISTRY.register("muie", () -> new MuieItem());
+	public static final RegistryObject<Item> MAIGOD = REGISTRY.register("maigod", () -> new MaigodItem());
+	public static final RegistryObject<Item> VERY_CAPITALISTA = REGISTRY.register("very_capitalista", () -> new VeryCapitalistaItem());
+	public static final RegistryObject<Item> TOME = REGISTRY.register("tome", () -> new TomeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

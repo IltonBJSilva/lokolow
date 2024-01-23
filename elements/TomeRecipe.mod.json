@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 3.9999999999999996,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Tomeore"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Tome"
+    },
+    "name": "tome_recipe",
+    "namespace": "minecraft"
+  }
+}

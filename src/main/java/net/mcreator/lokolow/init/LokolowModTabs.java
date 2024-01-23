@@ -35,8 +35,18 @@ public class LokolowModTabs {
 			tabData.accept(LokolowModItems.RUBIO_KN_SPAWN_EGG.get());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(LokolowModItems.CAPITALISTA_NUGGETS.get());
+			tabData.accept(LokolowModItems.MUIE.get());
+			tabData.accept(LokolowModItems.MAIGOD.get());
+			tabData.accept(LokolowModItems.TOME.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(LokolowModBlocks.CAPITALISTAORE.get().asItem());
+			tabData.accept(LokolowModBlocks.MAIGODEORE.get().asItem());
+			tabData.accept(LokolowModBlocks.MUIEORE.get().asItem());
+			tabData.accept(LokolowModBlocks.TOMEORE.get().asItem());
 		}
 	}
 }
