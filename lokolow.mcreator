@@ -491,6 +491,104 @@
         ]
       },
       "path": "~/Ferramentas"
+    },
+    {
+      "name": "CapitalistaAxeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalista_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/capitalista_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CapitalistaPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalista_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/capitalista_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MaigodAxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maigod_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/maigod_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MaigodPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maigod_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/maigod_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MuieAxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muie_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/muie_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MuieShovelRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muie_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/muie_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TomeAxeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/tome_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
