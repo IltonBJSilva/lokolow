@@ -59,6 +59,7 @@ public class LokolowModTabs {
 			tabData.accept(LokolowModItems.TOMEAXE.get());
 			tabData.accept(LokolowModItems.TOMEPICKAXE.get());
 			tabData.accept(LokolowModItems.VERYCAPITALISTASHOVEL.get());
+			tabData.accept(LokolowModItems.SUMMON_MOUTAIN.get());
 		}
 	}
 }

@@ -589,6 +589,35 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "TomePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/tome_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SummonMoutain",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_moutain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/item/SummonMoutainItem.java",
+          "src/main/resources/assets/lokolow/models/item/summon_moutain.json"
+        ]
+      },
+      "path": "~/Itens"
     }
   ],
   "variable_elements": [],
@@ -630,6 +659,7 @@
       "entity.lokolow.helliiot": "Helliiot",
       "item.lokolow.helliiot_spawn_egg": "Helliiot Spawn Egg",
       "item.lokolow.very_capitalista": "Very Capitalista",
+      "item.lokolow.summon_moutain": "Summon Moutain",
       "item.lokolow.capitalista_spawn_egg": "Capitalista Spawn Egg",
       "entity.lokolow.rubio_kn": "Rubio Kn",
       "item.lokolow.maigodpickaxe": "Maigod Pickaxe",

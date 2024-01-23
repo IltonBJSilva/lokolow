@@ -18,6 +18,7 @@ import net.mcreator.lokolow.item.VeryCapitalistaItem;
 import net.mcreator.lokolow.item.TomepickaxeItem;
 import net.mcreator.lokolow.item.TomeaxeItem;
 import net.mcreator.lokolow.item.TomeItem;
+import net.mcreator.lokolow.item.SummonMoutainItem;
 import net.mcreator.lokolow.item.MuieshovelItem;
 import net.mcreator.lokolow.item.MuieaxeItem;
 import net.mcreator.lokolow.item.MuieItem;
@@ -59,6 +60,7 @@ public class LokolowModItems {
 	public static final RegistryObject<Item> TOMEAXE = REGISTRY.register("tomeaxe", () -> new TomeaxeItem());
 	public static final RegistryObject<Item> TOMEPICKAXE = REGISTRY.register("tomepickaxe", () -> new TomepickaxeItem());
 	public static final RegistryObject<Item> VERYCAPITALISTASHOVEL = REGISTRY.register("verycapitalistashovel", () -> new VerycapitalistashovelItem());
+	public static final RegistryObject<Item> SUMMON_MOUTAIN = REGISTRY.register("summon_moutain", () -> new SummonMoutainItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

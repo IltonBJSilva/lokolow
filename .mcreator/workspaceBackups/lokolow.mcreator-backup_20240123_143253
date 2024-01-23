@@ -327,6 +327,282 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Tome",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/item/TomeItem.java",
+          "src/main/resources/assets/lokolow/models/item/tome.json"
+        ]
+      },
+      "path": "~/Mineiros"
+    },
+    {
+      "name": "TomeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/tome_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Capitalistaaxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalistaaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/item/CapitalistaaxeItem.java",
+          "src/main/resources/assets/lokolow/models/item/capitalistaaxe.json"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "CapitalistaPickaxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalista_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/capitalista_pickaxe.json",
+          "src/main/java/net/mcreator/lokolow/item/CapitalistaPickaxeItem.java"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "Maigodaxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maigodaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/maigodaxe.json",
+          "src/main/java/net/mcreator/lokolow/item/MaigodaxeItem.java"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "Maigodpickaxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maigodpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/maigodpickaxe.json",
+          "src/main/java/net/mcreator/lokolow/item/MaigodpickaxeItem.java"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "Muieaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muieaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/muieaxe.json",
+          "src/main/java/net/mcreator/lokolow/item/MuieaxeItem.java"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "Muieshovel",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muiehoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/muiehoe.json",
+          "src/main/java/net/mcreator/lokolow/item/MuieshovelItem.java"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "Tomeaxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomeaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/item/TomeaxeItem.java",
+          "src/main/resources/assets/lokolow/models/item/tomeaxe.json"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "Tomepickaxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tomepickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/tomepickaxe.json",
+          "src/main/java/net/mcreator/lokolow/item/TomepickaxeItem.java"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "Verycapitalistashovel",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verycapitalistashovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/verycapitalistashovel.json",
+          "src/main/java/net/mcreator/lokolow/item/VerycapitalistashovelItem.java"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "CapitalistaAxeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalista_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/capitalista_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CapitalistaPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capitalista_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/capitalista_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MaigodAxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maigod_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/maigod_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MaigodPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maigod_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/maigod_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MuieAxeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muie_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/muie_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "MuieShovelRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "muie_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/muie_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TomeAxeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/tome_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TomePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/tome_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -335,6 +611,8 @@
     "en_us": {
       "entity.lokolow.lokolow_inverso": "Lokolow Inverso",
       "entity.lokolow.lejuki": "Lejuki",
+      "item.lokolow.capitalistaaxe": "Capitalista Axe",
+      "item.lokolow.capitalista_pickaxe": "Capitalista Pickaxe",
       "entity.lokolow.lejuki_villager": "Lejuki Villager",
       "block.lokolow.capitalistaore": "Capitalistaore",
       "block.lokolow.muieore": "Muieore",
@@ -344,24 +622,32 @@
       "item.lokolow.maigod": "Maigod",
       "block.lokolow.tomeore": "Tomeore",
       "item.lokolow.guleskate_spawn_egg": "Guleskate Spawn Egg",
+      "item.lokolow.muiehoe": "Muie hoe",
       "item.lokolow.rubio_kn_spawn_egg": "Rubio Kn Spawn Egg",
       "entity.lokolow.capitalista": "Capitalista",
       "item.lokolow.lokolow_villager_spawn_egg": "Lokolow Villager Spawn Egg",
       "item.lokolow.lejuki_spawn_egg": "Lejuki Spawn Egg",
       "item.lokolow.capitalista_nuggets": "Capitalista Nuggets",
+      "item.lokolow.tomepickaxe": "Tome Pickaxe",
       "item.lokolow.lokolowpresidente_spawn_egg": "Lokolowpresidente Spawn Egg",
       "item.lokolow.lokolow_inverso_spawn_egg": "Lokolow Inverso Spawn Egg",
+      "item.lokolow.tome": "Tome",
+      "item.lokolow.maigodaxe": "Maigod Axe",
       "entity.lokolow.guleskate": "Guleskate",
       "item.lokolow.muie": "Muie",
+      "item.lokolow.tomeaxe": "Tome Axe",
       "block.lokolow.maigodeore": "Maigodeore",
       "entity.lokolow.lokolowpresidente": "Lokolowpresidente",
       "entity.lokolow.lokow_krueger": "Lokow Krueger",
+      "item.lokolow.verycapitalistashovel": "Very Capitalista Spade",
       "entity.lokolow.lejuki_wandinha": "Lejuki Wandinha",
       "entity.lokolow.helliiot": "Helliiot",
       "item.lokolow.helliiot_spawn_egg": "Helliiot Spawn Egg",
       "item.lokolow.very_capitalista": "Very Capitalista",
       "item.lokolow.capitalista_spawn_egg": "Capitalista Spawn Egg",
-      "entity.lokolow.rubio_kn": "Rubio Kn"
+      "entity.lokolow.rubio_kn": "Rubio Kn",
+      "item.lokolow.maigodpickaxe": "Maigod Pickaxe",
+      "item.lokolow.muieaxe": "Muie Axe"
     }
   },
   "foldersRoot": {
