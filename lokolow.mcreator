@@ -618,15 +618,126 @@
         ]
       },
       "path": "~/Itens"
+    },
+    {
+      "name": "SummonMoutainRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_moutain_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipes/summon_moutain_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "Lokolow",
+      "type": "livingentity",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lokolow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/client/renderer/LokolowRenderer.java",
+          "src/main/java/net/mcreator/lokolow/entity/LokolowEntity.java",
+          "src/main/resources/assets/lokolow/models/item/lokolow_spawn_egg.json",
+          "src/main/resources/data/lokolow/forge/biome_modifier/lokolow_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "LokolowCreativeTab",
+      "type": "tab",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lokolow_creative_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "SummonMoutainRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_moutain_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/SummonMoutainRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "Casa",
+      "type": "structure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casa",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/worldgen/structure/casa.json",
+          "src/main/resources/data/lokolow/worldgen/template_pool/casa.json",
+          "src/main/resources/data/lokolow/worldgen/structure_set/casa.json"
+        ]
+      },
+      "path": "~/Build"
+    },
+    {
+      "name": "Montanharussalokolow",
+      "type": "structure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "montanharussalokolow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/worldgen/template_pool/montanharussalokolow.json",
+          "src/main/resources/data/lokolow/worldgen/structure_set/montanharussalokolow.json",
+          "src/main/resources/data/lokolow/worldgen/structure/montanharussalokolow.json"
+        ]
+      },
+      "path": "~/Build"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "entity.lokolow.lokolow_inverso": "Lokolow Inverso",
-      "entity.lokolow.lejuki": "Lejuki",
       "item.lokolow.capitalistaaxe": "Capitalista Axe",
+      "entity.lokolow.lejuki": "Lejuki",
+      "entity.lokolow.lokolow_inverso": "Lokolow Inverso",
       "item.lokolow.capitalista_pickaxe": "Capitalista Pickaxe",
       "entity.lokolow.lejuki_villager": "Lejuki Villager",
       "block.lokolow.capitalistaore": "Capitalistaore",
@@ -655,15 +766,18 @@
       "entity.lokolow.lokolowpresidente": "Lokolowpresidente",
       "entity.lokolow.lokow_krueger": "Lokow Krueger",
       "item.lokolow.verycapitalistashovel": "Very Capitalista Spade",
+      "entity.lokolow.lokolow": "Lokolow",
       "entity.lokolow.lejuki_wandinha": "Lejuki Wandinha",
       "entity.lokolow.helliiot": "Helliiot",
+      "item.lokolow.lokolow_spawn_egg": "Lokolow Spawn Egg",
       "item.lokolow.helliiot_spawn_egg": "Helliiot Spawn Egg",
       "item.lokolow.very_capitalista": "Very Capitalista",
       "item.lokolow.summon_moutain": "Summon Moutain",
       "item.lokolow.capitalista_spawn_egg": "Capitalista Spawn Egg",
       "entity.lokolow.rubio_kn": "Rubio Kn",
       "item.lokolow.maigodpickaxe": "Maigod Pickaxe",
-      "item.lokolow.muieaxe": "Muie Axe"
+      "item.lokolow.muieaxe": "Muie Axe",
+      "item_group.lokolow.lokolow_creative_tab": "Lokolow Creative Tab"
     }
   },
   "foldersRoot": {
@@ -691,6 +805,10 @@
       },
       {
         "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "GUI",
         "children": []
       }
     ]

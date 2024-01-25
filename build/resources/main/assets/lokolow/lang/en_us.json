@@ -1,7 +1,7 @@
 {
-  "entity.lokolow.lokolow_inverso": "Lokolow Inverso",
-  "entity.lokolow.lejuki": "Lejuki",
   "item.lokolow.capitalistaaxe": "Capitalista Axe",
+  "entity.lokolow.lejuki": "Lejuki",
+  "entity.lokolow.lokolow_inverso": "Lokolow Inverso",
   "item.lokolow.capitalista_pickaxe": "Capitalista Pickaxe",
   "entity.lokolow.lejuki_villager": "Lejuki Villager",
   "block.lokolow.capitalistaore": "Capitalistaore",
@@ -30,13 +30,16 @@
   "entity.lokolow.lokolowpresidente": "Lokolowpresidente",
   "entity.lokolow.lokow_krueger": "Lokow Krueger",
   "item.lokolow.verycapitalistashovel": "Very Capitalista Spade",
+  "entity.lokolow.lokolow": "Lokolow",
   "entity.lokolow.lejuki_wandinha": "Lejuki Wandinha",
   "entity.lokolow.helliiot": "Helliiot",
+  "item.lokolow.lokolow_spawn_egg": "Lokolow Spawn Egg",
   "item.lokolow.helliiot_spawn_egg": "Helliiot Spawn Egg",
   "item.lokolow.very_capitalista": "Very Capitalista",
   "item.lokolow.summon_moutain": "Summon Moutain",
   "item.lokolow.capitalista_spawn_egg": "Capitalista Spawn Egg",
   "entity.lokolow.rubio_kn": "Rubio Kn",
   "item.lokolow.maigodpickaxe": "Maigod Pickaxe",
-  "item.lokolow.muieaxe": "Muie Axe"
+  "item.lokolow.muieaxe": "Muie Axe",
+  "item_group.lokolow.lokolow_creative_tab": "Lokolow Creative Tab"
 }

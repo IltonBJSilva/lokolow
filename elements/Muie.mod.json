@@ -10,7 +10,7 @@
     "name": "Muie",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:LokolowCreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,

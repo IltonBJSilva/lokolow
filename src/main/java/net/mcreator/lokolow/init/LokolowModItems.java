@@ -61,6 +61,7 @@ public class LokolowModItems {
 	public static final RegistryObject<Item> TOMEPICKAXE = REGISTRY.register("tomepickaxe", () -> new TomepickaxeItem());
 	public static final RegistryObject<Item> VERYCAPITALISTASHOVEL = REGISTRY.register("verycapitalistashovel", () -> new VerycapitalistashovelItem());
 	public static final RegistryObject<Item> SUMMON_MOUTAIN = REGISTRY.register("summon_moutain", () -> new SummonMoutainItem());
+	public static final RegistryObject<Item> LOKOLOW_SPAWN_EGG = REGISTRY.register("lokolow_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LOKOLOW, -16777012, -10092442, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

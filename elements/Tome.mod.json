@@ -10,7 +10,7 @@
     "name": "Tome",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:LokolowCreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,

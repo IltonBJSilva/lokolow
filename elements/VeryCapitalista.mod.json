@@ -10,7 +10,7 @@
     "name": "Very Capitalista",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:LokolowCreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,

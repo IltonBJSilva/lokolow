@@ -13,6 +13,7 @@ import net.mcreator.lokolow.client.renderer.RubioKnRenderer;
 import net.mcreator.lokolow.client.renderer.LokowKruegerRenderer;
 import net.mcreator.lokolow.client.renderer.LokolowpresidenteRenderer;
 import net.mcreator.lokolow.client.renderer.LokolowVillagerRenderer;
+import net.mcreator.lokolow.client.renderer.LokolowRenderer;
 import net.mcreator.lokolow.client.renderer.LokolowInversoRenderer;
 import net.mcreator.lokolow.client.renderer.LejukiWandinhaRenderer;
 import net.mcreator.lokolow.client.renderer.LejukiVillagerRenderer;
@@ -36,5 +37,6 @@ public class LokolowModEntityRenderers {
 		event.registerEntityRenderer(LokolowModEntities.LEJUKI.get(), LejukiRenderer::new);
 		event.registerEntityRenderer(LokolowModEntities.LEJUKI_WANDINHA.get(), LejukiWandinhaRenderer::new);
 		event.registerEntityRenderer(LokolowModEntities.RUBIO_KN.get(), RubioKnRenderer::new);
+		event.registerEntityRenderer(LokolowModEntities.LOKOLOW.get(), LokolowRenderer::new);
 	}
 }

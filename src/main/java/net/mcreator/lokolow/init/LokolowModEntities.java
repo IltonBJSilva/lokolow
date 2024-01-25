@@ -21,6 +21,7 @@ import net.mcreator.lokolow.entity.LokowKruegerEntity;
 import net.mcreator.lokolow.entity.LokolowpresidenteEntity;
 import net.mcreator.lokolow.entity.LokolowVillagerEntity;
 import net.mcreator.lokolow.entity.LokolowInversoEntity;
+import net.mcreator.lokolow.entity.LokolowEntity;
 import net.mcreator.lokolow.entity.LejukiWandinhaEntity;
 import net.mcreator.lokolow.entity.LejukiVillagerEntity;
 import net.mcreator.lokolow.entity.LejukiEntity;
@@ -76,6 +77,10 @@ public class LokolowModEntities {
 			EntityType.Builder.<RubioKnEntity>of(RubioKnEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RubioKnEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<LokolowEntity>> LOKOLOW = register("lokolow",
+			EntityType.Builder.<LokolowEntity>of(LokolowEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LokolowEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -95,6 +100,7 @@ public class LokolowModEntities {
 			LejukiEntity.init();
 			LejukiWandinhaEntity.init();
 			RubioKnEntity.init();
+			LokolowEntity.init();
 		});
 	}
 
@@ -111,5 +117,6 @@ public class LokolowModEntities {
 		event.put(LEJUKI.get(), LejukiEntity.createAttributes().build());
 		event.put(LEJUKI_WANDINHA.get(), LejukiWandinhaEntity.createAttributes().build());
 		event.put(RUBIO_KN.get(), RubioKnEntity.createAttributes().build());
+		event.put(LOKOLOW.get(), LokolowEntity.createAttributes().build());
 	}
 }
