@@ -16,22 +16,22 @@
       "value": "CUSTOM:LokolowCreativeTab"
     },
     "harvestLevel": 1000,
-    "efficiency": 4.0,
+    "efficiency": 1000.0,
     "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "enchantability": 1000,
+    "damageVsEntity": 1000.0,
+    "usageCount": 1000,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Capitalistaore"
+        "value": "CUSTOM:CapitalistaPickaxe"
       }
     ],
-    "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true
   }
 }

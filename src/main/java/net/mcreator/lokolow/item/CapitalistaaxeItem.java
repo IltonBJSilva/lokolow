@@ -10,7 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.lokolow.init.LokolowModBlocks;
+import net.mcreator.lokolow.init.LokolowModItems;
 
 import java.util.List;
 
@@ -22,7 +22,7 @@ public class CapitalistaaxeItem extends AxeItem {
 			}
 
 			public float getSpeed() {
-				return 80f;
+				return 100f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -30,17 +30,17 @@ public class CapitalistaaxeItem extends AxeItem {
 			}
 
 			public int getLevel() {
-				return 80;
+				return 100;
 			}
 
 			public int getEnchantmentValue() {
-				return 40;
+				return 100;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(LokolowModBlocks.CAPITALISTAORE.get()));
+				return Ingredient.of(new ItemStack(LokolowModItems.VERY_CAPITALISTA.get()));
 			}
-		}, 1, 46f, new Item.Properties());
+		}, 1, 66f, new Item.Properties().fireResistant());
 	}
 
 	@Override

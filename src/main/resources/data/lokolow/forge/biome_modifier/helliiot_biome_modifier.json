@@ -1,12 +1,10 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "#is_mountain",
   "spawners": {
     "type": "lokolow:helliiot",
-    "weight": 20,
-    "minCount": 4,
+    "weight": 11,
+    "minCount": 1,
     "maxCount": 4
   }
 }

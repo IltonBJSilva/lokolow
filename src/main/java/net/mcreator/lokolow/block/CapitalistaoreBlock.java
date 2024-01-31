@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class CapitalistaoreBlock extends Block {
 	public CapitalistaoreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.METAL).strength(1f, 11.5f));
 	}
 
 	@Override

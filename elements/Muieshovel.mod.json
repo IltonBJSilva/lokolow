@@ -15,19 +15,23 @@
     "creativeTab": {
       "value": "CUSTOM:LokolowCreativeTab"
     },
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "harvestLevel": 100,
+    "efficiency": 5.0,
+    "attackSpeed": 40.0,
+    "enchantability": 5,
+    "damageVsEntity": 3.8,
+    "usageCount": 400,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
-    "immuneToFire": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Muie"
+      }
+    ],
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": true
   }
 }

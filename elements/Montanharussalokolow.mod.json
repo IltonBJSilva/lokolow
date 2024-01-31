@@ -9,11 +9,11 @@
         "value": "Blocks.STRUCTURE_BLOCK"
       }
     ],
-    "spacing": 5,
-    "separation": 2,
+    "spacing": 27,
+    "separation": 4,
     "restrictionBiomes": [
       {
-        "value": "#is_overworld"
+        "value": "#none"
       }
     ],
     "surfaceDetectionType": "WORLD_SURFACE_WG",

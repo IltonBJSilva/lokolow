@@ -7,6 +7,10 @@ import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.ThrownPotion;
+import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -19,7 +23,10 @@ import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.AreaEffectCloud;
+import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
 import net.minecraft.sounds.SoundEvent;
@@ -29,7 +36,7 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.lokolow.init.LokolowModEntities;
 
-public class LokolowInversoEntity extends Monster {
+public class LokolowInversoEntity extends Zombie {
 	public LokolowInversoEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(LokolowModEntities.LOKOLOW_INVERSO.get(), world);
 	}
@@ -39,6 +46,7 @@ public class LokolowInversoEntity extends Monster {
 		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
+		this.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(Items.TRIDENT));
 	}
 
 	@Override
@@ -63,7 +71,7 @@ public class LokolowInversoEntity extends Monster {
 
 	@Override
 	public MobType getMobType() {
-		return MobType.UNDEFINED;
+		return MobType.WATER;
 	}
 
 	@Override
@@ -71,14 +79,36 @@ public class LokolowInversoEntity extends Monster {
 		return -0.35D;
 	}
 
+	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
+		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
+		this.spawnAtLocation(new ItemStack(Items.TRIDENT));
+	}
+
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lokolow:helliot_hit"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("lokolow:helliot_morte"));
+	}
+
+	@Override
+	public boolean hurt(DamageSource damagesource, float amount) {
+		if (damagesource.getDirectEntity() instanceof ThrownPotion || damagesource.getDirectEntity() instanceof AreaEffectCloud)
+			return false;
+		if (damagesource.is(DamageTypes.FALL))
+			return false;
+		if (damagesource.is(DamageTypes.DROWN))
+			return false;
+		if (damagesource.is(DamageTypes.EXPLOSION))
+			return false;
+		if (damagesource.is(DamageTypes.TRIDENT))
+			return false;
+		if (damagesource.is(DamageTypes.FALLING_ANVIL))
+			return false;
+		return super.hurt(damagesource, amount);
 	}
 
 	public static void init() {
@@ -93,6 +123,7 @@ public class LokolowInversoEntity extends Monster {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.SPAWN_REINFORCEMENTS_CHANCE);
 		return builder;
 	}
 }

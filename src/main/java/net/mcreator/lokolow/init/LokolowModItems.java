@@ -19,6 +19,7 @@ import net.mcreator.lokolow.item.TomepickaxeItem;
 import net.mcreator.lokolow.item.TomeaxeItem;
 import net.mcreator.lokolow.item.TomeItem;
 import net.mcreator.lokolow.item.SummonMoutainItem;
+import net.mcreator.lokolow.item.POTIONNEGATIVOItem;
 import net.mcreator.lokolow.item.MuieshovelItem;
 import net.mcreator.lokolow.item.MuieaxeItem;
 import net.mcreator.lokolow.item.MuieItem;
@@ -38,7 +39,6 @@ public class LokolowModItems {
 	public static final RegistryObject<Item> LOKOW_KRUEGER_SPAWN_EGG = REGISTRY.register("lokow_krueger_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LOKOW_KRUEGER, -3407872, -10092442, new Item.Properties()));
 	public static final RegistryObject<Item> LOKOLOW_INVERSO_SPAWN_EGG = REGISTRY.register("lokolow_inverso_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LOKOLOW_INVERSO, -13421773, -6710887, new Item.Properties()));
 	public static final RegistryObject<Item> LOKOLOWPRESIDENTE_SPAWN_EGG = REGISTRY.register("lokolowpresidente_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LOKOLOWPRESIDENTE, -13382656, -256, new Item.Properties()));
-	public static final RegistryObject<Item> LOKOLOW_VILLAGER_SPAWN_EGG = REGISTRY.register("lokolow_villager_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LOKOLOW_VILLAGER, -14675712, -10092442, new Item.Properties()));
 	public static final RegistryObject<Item> LEJUKI_SPAWN_EGG = REGISTRY.register("lejuki_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LEJUKI, -6750004, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> LEJUKI_WANDINHA_SPAWN_EGG = REGISTRY.register("lejuki_wandinha_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LEJUKI_WANDINHA, -16777216, -6750055, new Item.Properties()));
 	public static final RegistryObject<Item> RUBIO_KN_SPAWN_EGG = REGISTRY.register("rubio_kn_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.RUBIO_KN, -16737793, -16777216, new Item.Properties()));
@@ -62,6 +62,7 @@ public class LokolowModItems {
 	public static final RegistryObject<Item> VERYCAPITALISTASHOVEL = REGISTRY.register("verycapitalistashovel", () -> new VerycapitalistashovelItem());
 	public static final RegistryObject<Item> SUMMON_MOUTAIN = REGISTRY.register("summon_moutain", () -> new SummonMoutainItem());
 	public static final RegistryObject<Item> LOKOLOW_SPAWN_EGG = REGISTRY.register("lokolow_spawn_egg", () -> new ForgeSpawnEggItem(LokolowModEntities.LOKOLOW, -16777012, -10092442, new Item.Properties()));
+	public static final RegistryObject<Item> POTIONNEGATIVO = REGISTRY.register("potionnegativo", () -> new POTIONNEGATIVOItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

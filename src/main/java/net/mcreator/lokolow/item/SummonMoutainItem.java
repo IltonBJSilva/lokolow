@@ -3,6 +3,7 @@ package net.mcreator.lokolow.item;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
@@ -16,7 +17,12 @@ import java.util.List;
 
 public class SummonMoutainItem extends Item {
 	public SummonMoutainItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
+	}
+
+	@Override
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.BOW;
 	}
 
 	@Override

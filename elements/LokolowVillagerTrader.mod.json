@@ -1,0 +1,303 @@
+{
+  "_fv": 57,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:CapitalistaProfession"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.STICK"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 20,
+            "xp": 15,
+            "priceMultiplier": 0.12
+          },
+          {
+            "price1": {
+              "value": "Blocks.EMERALD_BLOCK"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.STICK"
+            },
+            "countPrice2": 30,
+            "offer": {
+              "value": "Items.EMERALD"
+            },
+            "countOffer": 12,
+            "level": 1,
+            "maxTrades": 5,
+            "xp": 20,
+            "priceMultiplier": 0.15
+          },
+          {
+            "price1": {
+              "value": "Blocks.COBBLESTONE"
+            },
+            "countPrice1": 64,
+            "price2": {
+              "value": "Items.COAL#0"
+            },
+            "countPrice2": 64,
+            "offer": {
+              "value": "Items.DIAMOND"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 30,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.EMERALD_BLOCK"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": "Blocks.QUARTZ_BLOCK#3"
+            },
+            "countPrice2": 32,
+            "offer": {
+              "value": "Blocks.DIAMOND_BLOCK"
+            },
+            "countOffer": 4,
+            "level": 2,
+            "maxTrades": 10,
+            "xp": 40,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "countPrice1": 30,
+            "price2": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice2": 9,
+            "offer": {
+              "value": "Items.NETHERITE_CHESTPLATE"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 50,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "countPrice1": 40,
+            "price2": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice2": 5,
+            "offer": {
+              "value": "Items.NETHERITE_HELMET"
+            },
+            "countOffer": 1,
+            "level": 3,
+            "maxTrades": 10,
+            "xp": 60,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "countPrice1": 50,
+            "price2": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "Items.NETHERITE_PICKAXE"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 70,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "countPrice1": 60,
+            "price2": {
+              "value": "Items.DIAMOND"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "Items.NETHERITE_SWORD"
+            },
+            "countOffer": 1,
+            "level": 4,
+            "maxTrades": 10,
+            "xp": 80,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.LAPIS_BLOCK"
+            },
+            "countPrice1": 4,
+            "price2": {
+              "value": "CUSTOM:Maigod"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Maigodaxe"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 90,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.DIAMOND_BLOCK"
+            },
+            "countPrice1": 6,
+            "price2": {
+              "value": "Blocks.EMERALD_BLOCK"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "CUSTOM:CapitalistaPickaxe"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 100,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.EMERALD_BLOCK"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Maigod"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:Maigodpickaxe"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 200,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.DIAMOND_AXE"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Tome"
+            },
+            "countPrice2": 2,
+            "offer": {
+              "value": "CUSTOM:Tomeaxe"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 300,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:VeryCapitalista"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Blocks.END_STONE"
+            },
+            "countPrice2": 64,
+            "offer": {
+              "value": "Items.ELYTRA"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 400,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.EMERALD_BLOCK"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.SPONGE#0"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Items.ECHO_SHARD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "Items.NETHER_STAR"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "Blocks.DRAGON_EGG"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "Blocks.EMERALD_BLOCK"
+            },
+            "countPrice1": 10,
+            "price2": {
+              "value": "Blocks.DIAMOND_BLOCK"
+            },
+            "countPrice2": 10,
+            "offer": {
+              "value": "CUSTOM:SummonMoutain"
+            },
+            "countOffer": 1,
+            "level": 5,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          }
+        ]
+      }
+    ]
+  }
+}

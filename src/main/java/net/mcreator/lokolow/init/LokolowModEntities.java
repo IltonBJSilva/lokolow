@@ -19,11 +19,9 @@ import net.minecraft.world.entity.Entity;
 import net.mcreator.lokolow.entity.RubioKnEntity;
 import net.mcreator.lokolow.entity.LokowKruegerEntity;
 import net.mcreator.lokolow.entity.LokolowpresidenteEntity;
-import net.mcreator.lokolow.entity.LokolowVillagerEntity;
 import net.mcreator.lokolow.entity.LokolowInversoEntity;
 import net.mcreator.lokolow.entity.LokolowEntity;
 import net.mcreator.lokolow.entity.LejukiWandinhaEntity;
-import net.mcreator.lokolow.entity.LejukiVillagerEntity;
 import net.mcreator.lokolow.entity.LejukiEntity;
 import net.mcreator.lokolow.entity.HelliiotEntity;
 import net.mcreator.lokolow.entity.GuleskateEntity;
@@ -33,24 +31,18 @@ import net.mcreator.lokolow.LokolowMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class LokolowModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, LokolowMod.MODID);
-	public static final RegistryObject<EntityType<GuleskateEntity>> GULESKATE = register("guleskate",
-			EntityType.Builder.<GuleskateEntity>of(GuleskateEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GuleskateEntity::new)
-
-					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<GuleskateEntity>> GULESKATE = register("guleskate", EntityType.Builder.<GuleskateEntity>of(GuleskateEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+			.setUpdateInterval(3).setCustomClientFactory(GuleskateEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<CapitalistaEntity>> CAPITALISTA = register("capitalista",
 			EntityType.Builder.<CapitalistaEntity>of(CapitalistaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CapitalistaEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<HelliiotEntity>> HELLIIOT = register("helliiot",
-			EntityType.Builder.<HelliiotEntity>of(HelliiotEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HelliiotEntity::new)
+			EntityType.Builder.<HelliiotEntity>of(HelliiotEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HelliiotEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<LokowKruegerEntity>> LOKOW_KRUEGER = register("lokow_krueger",
-			EntityType.Builder.<LokowKruegerEntity>of(LokowKruegerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LokowKruegerEntity::new)
-
-					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<LejukiVillagerEntity>> LEJUKI_VILLAGER = register("lejuki_villager",
-			EntityType.Builder.<LejukiVillagerEntity>of(LejukiVillagerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LejukiVillagerEntity::new)
+			EntityType.Builder.<LokowKruegerEntity>of(LokowKruegerEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LokowKruegerEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<LokolowInversoEntity>> LOKOLOW_INVERSO = register("lokolow_inverso",
@@ -61,12 +53,8 @@ public class LokolowModEntities {
 			EntityType.Builder.<LokolowpresidenteEntity>of(LokolowpresidenteEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LokolowpresidenteEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<LokolowVillagerEntity>> LOKOLOW_VILLAGER = register("lokolow_villager",
-			EntityType.Builder.<LokolowVillagerEntity>of(LokolowVillagerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LokolowVillagerEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<LejukiEntity>> LEJUKI = register("lejuki",
-			EntityType.Builder.<LejukiEntity>of(LejukiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LejukiEntity::new)
+			EntityType.Builder.<LejukiEntity>of(LejukiEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LejukiEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<LejukiWandinhaEntity>> LEJUKI_WANDINHA = register("lejuki_wandinha",
@@ -74,11 +62,9 @@ public class LokolowModEntities {
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<RubioKnEntity>> RUBIO_KN = register("rubio_kn",
-			EntityType.Builder.<RubioKnEntity>of(RubioKnEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RubioKnEntity::new)
-
-					.sized(0.6f, 1.8f));
+			EntityType.Builder.<RubioKnEntity>of(RubioKnEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RubioKnEntity::new).fireImmune().sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<LokolowEntity>> LOKOLOW = register("lokolow",
-			EntityType.Builder.<LokolowEntity>of(LokolowEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LokolowEntity::new)
+			EntityType.Builder.<LokolowEntity>of(LokolowEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(LokolowEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -93,10 +79,8 @@ public class LokolowModEntities {
 			CapitalistaEntity.init();
 			HelliiotEntity.init();
 			LokowKruegerEntity.init();
-			LejukiVillagerEntity.init();
 			LokolowInversoEntity.init();
 			LokolowpresidenteEntity.init();
-			LokolowVillagerEntity.init();
 			LejukiEntity.init();
 			LejukiWandinhaEntity.init();
 			RubioKnEntity.init();
@@ -110,10 +94,8 @@ public class LokolowModEntities {
 		event.put(CAPITALISTA.get(), CapitalistaEntity.createAttributes().build());
 		event.put(HELLIIOT.get(), HelliiotEntity.createAttributes().build());
 		event.put(LOKOW_KRUEGER.get(), LokowKruegerEntity.createAttributes().build());
-		event.put(LEJUKI_VILLAGER.get(), LejukiVillagerEntity.createAttributes().build());
 		event.put(LOKOLOW_INVERSO.get(), LokolowInversoEntity.createAttributes().build());
 		event.put(LOKOLOWPRESIDENTE.get(), LokolowpresidenteEntity.createAttributes().build());
-		event.put(LOKOLOW_VILLAGER.get(), LokolowVillagerEntity.createAttributes().build());
 		event.put(LEJUKI.get(), LejukiEntity.createAttributes().build());
 		event.put(LEJUKI_WANDINHA.get(), LejukiWandinhaEntity.createAttributes().build());
 		event.put(RUBIO_KN.get(), RubioKnEntity.createAttributes().build());

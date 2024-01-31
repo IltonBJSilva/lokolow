@@ -36,7 +36,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:LokolowCreativeTab"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -45,7 +45,7 @@
       "value": ""
     },
     "equipmentOffHand": {
-      "value": ""
+      "value": "CUSTOM:Tomeaxe"
     },
     "equipmentHelmet": {
       "value": ""
@@ -59,9 +59,9 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "ILLAGER",
+    "attackStrength": 9,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
@@ -70,7 +70,7 @@
     "trackingRange": 64,
     "followRange": 16,
     "health": 10,
-    "xpAmount": 0,
+    "xpAmount": 50,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -100,7 +100,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "Items.QUARTZ"
     },
     "livingSound": {
       "value": ""
@@ -115,6 +115,12 @@
       "value": ""
     },
     "entityDataEntries": [],
+    "onRightClickedOn": {
+      "name": "LokowKruegerRightClickedOnEntity"
+    },
+    "onInitialSpawn": {
+      "name": "LokowKruegerOnInitialEntitySpawn"
+    },
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
@@ -130,11 +136,15 @@
     "rangedAttackRadius": 10.0,
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
-    "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
+    "spawningProbability": 7,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "restrictionBiomes": [
+      {
+        "value": "#is_nether"
+      }
+    ],
+    "spawnInDungeons": true
   }
 }

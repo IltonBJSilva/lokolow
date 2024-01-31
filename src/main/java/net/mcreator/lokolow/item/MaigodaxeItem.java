@@ -18,15 +18,15 @@ public class MaigodaxeItem extends AxeItem {
 	public MaigodaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 700;
 			}
 
 			public float getSpeed() {
-				return 40f;
+				return 8f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 38f;
+				return 8f;
 			}
 
 			public int getLevel() {
@@ -34,11 +34,11 @@ public class MaigodaxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 20;
+				return 10;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(LokolowModItems.VERY_CAPITALISTA.get()));
+				return Ingredient.of(new ItemStack(LokolowModItems.MAIGOD.get()));
 			}
 		}, 1, 6f, new Item.Properties());
 	}

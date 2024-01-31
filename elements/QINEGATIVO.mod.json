@@ -1,0 +1,20 @@
+{
+  "_fv": 57,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "QI Negativo",
+    "icon": "poison_je3_be2.png",
+    "color": {
+      "value": -13382656,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "QINEGATIVOQuandoAPocaoIniciadaaplicada"
+    }
+  }
+}

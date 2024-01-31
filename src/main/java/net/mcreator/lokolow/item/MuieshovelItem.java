@@ -10,35 +10,37 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.lokolow.init.LokolowModItems;
+
 import java.util.List;
 
 public class MuieshovelItem extends HoeItem {
 	public MuieshovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 400;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 5f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 1.8f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 100;
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 5;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(LokolowModItems.MUIE.get()));
 			}
-		}, 0, -3f, new Item.Properties());
+		}, 0, 36f, new Item.Properties().fireResistant());
 	}
 
 	@Override

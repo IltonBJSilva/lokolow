@@ -24,6 +24,14 @@ public class LokolowModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LokolowMod.MODID);
 	public static final RegistryObject<CreativeModeTab> LOKOLOW_CREATIVE_TAB = REGISTRY.register("lokolow_creative_tab",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.lokolow.lokolow_creative_tab")).icon(() -> new ItemStack(Blocks.EMERALD_BLOCK)).displayItems((parameters, tabData) -> {
+				tabData.accept(LokolowModItems.CAPITALISTA_SPAWN_EGG.get());
+				tabData.accept(LokolowModItems.HELLIIOT_SPAWN_EGG.get());
+				tabData.accept(LokolowModItems.LOKOW_KRUEGER_SPAWN_EGG.get());
+				tabData.accept(LokolowModItems.LOKOLOW_INVERSO_SPAWN_EGG.get());
+				tabData.accept(LokolowModItems.LOKOLOWPRESIDENTE_SPAWN_EGG.get());
+				tabData.accept(LokolowModItems.LEJUKI_SPAWN_EGG.get());
+				tabData.accept(LokolowModItems.LEJUKI_WANDINHA_SPAWN_EGG.get());
+				tabData.accept(LokolowModItems.RUBIO_KN_SPAWN_EGG.get());
 				tabData.accept(LokolowModBlocks.CAPITALISTAORE.get().asItem());
 				tabData.accept(LokolowModBlocks.MAIGODEORE.get().asItem());
 				tabData.accept(LokolowModBlocks.MUIEORE.get().asItem());
@@ -43,6 +51,8 @@ public class LokolowModTabs {
 				tabData.accept(LokolowModItems.TOMEPICKAXE.get());
 				tabData.accept(LokolowModItems.VERYCAPITALISTASHOVEL.get());
 				tabData.accept(LokolowModItems.SUMMON_MOUTAIN.get());
+				tabData.accept(LokolowModItems.LOKOLOW_SPAWN_EGG.get());
+				tabData.accept(LokolowModItems.POTIONNEGATIVO.get());
 			})
 
 					.build());
@@ -52,16 +62,6 @@ public class LokolowModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(LokolowModItems.GULESKATE_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.CAPITALISTA_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.HELLIIOT_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.LOKOW_KRUEGER_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.LOKOLOW_INVERSO_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.LOKOLOWPRESIDENTE_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.LOKOLOW_VILLAGER_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.LEJUKI_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.LEJUKI_WANDINHA_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.RUBIO_KN_SPAWN_EGG.get());
-			tabData.accept(LokolowModItems.LOKOLOW_SPAWN_EGG.get());
 		}
 	}
 }

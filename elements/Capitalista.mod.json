@@ -36,7 +36,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:LokolowCreativeTab"
     },
     "isBoss": false,
     "bossBarColor": "PINK",
@@ -45,7 +45,7 @@
       "value": ""
     },
     "equipmentOffHand": {
-      "value": ""
+      "value": "Items.NETHERITE_AXE"
     },
     "equipmentHelmet": {
       "value": ""
@@ -60,8 +60,8 @@
       "value": ""
     },
     "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "mobCreatureType": "ARTHROPOD",
+    "attackStrength": 15,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
@@ -69,8 +69,8 @@
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 10,
-    "xpAmount": 0,
+    "health": 100,
+    "xpAmount": 100,
     "waterMob": false,
     "breatheUnderwater": {
       "fixedValue": false
@@ -89,34 +89,34 @@
     "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
-    "immuneToCactus": false,
-    "immuneToDrowning": false,
-    "immuneToLightning": false,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
     "immuneToPotions": false,
     "immuneToPlayer": false,
-    "immuneToExplosion": false,
+    "immuneToExplosion": true,
     "immuneToTrident": false,
-    "immuneToAnvil": false,
+    "immuneToAnvil": true,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:CapitalistaNuggets"
     },
     "livingSound": {
       "value": ""
     },
     "hurtSound": {
-      "value": "entity.generic.hurt"
+      "value": "CUSTOM:hit_no_capitalista"
     },
     "deathSound": {
-      "value": "entity.generic.death"
+      "value": "CUSTOM:capitalista_hit"
     },
     "stepSound": {
       "value": ""
     },
     "entityDataEntries": [],
     "hasAI": true,
-    "aiBase": "(none)",
+    "aiBase": "Witch",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
@@ -132,9 +132,13 @@
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 1,
+    "restrictionBiomes": [
+      {
+        "value": "#is_overworld"
+      }
+    ],
+    "spawnInDungeons": true
   }
 }

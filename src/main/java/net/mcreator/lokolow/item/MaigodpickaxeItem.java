@@ -16,29 +16,29 @@ public class MaigodpickaxeItem extends PickaxeItem {
 	public MaigodpickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 800;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 5f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 3f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 7;
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 4;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, 0f, new Item.Properties());
 	}
 
 	@Override

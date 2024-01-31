@@ -1,12 +1,10 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "#is_nether",
   "spawners": {
     "type": "lokolow:lokow_krueger",
-    "weight": 20,
-    "minCount": 4,
+    "weight": 7,
+    "minCount": 1,
     "maxCount": 4
   }
 }

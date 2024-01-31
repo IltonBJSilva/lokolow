@@ -29,7 +29,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.lokolow.init.LokolowModVillagerProfessions;
 import net.mcreator.lokolow.init.LokolowModTabs;
+import net.mcreator.lokolow.init.LokolowModSounds;
+import net.mcreator.lokolow.init.LokolowModMobEffects;
+import net.mcreator.lokolow.init.LokolowModMenus;
 import net.mcreator.lokolow.init.LokolowModItems;
 import net.mcreator.lokolow.init.LokolowModEntities;
 import net.mcreator.lokolow.init.LokolowModBlocks;
@@ -51,7 +55,7 @@ public class LokolowMod {
 	public LokolowMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		LokolowModSounds.REGISTRY.register(bus);
 		LokolowModBlocks.REGISTRY.register(bus);
 
 		LokolowModItems.REGISTRY.register(bus);
@@ -59,6 +63,10 @@ public class LokolowMod {
 
 		LokolowModTabs.REGISTRY.register(bus);
 
+		LokolowModMobEffects.REGISTRY.register(bus);
+
+		LokolowModVillagerProfessions.PROFESSIONS.register(bus);
+		LokolowModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

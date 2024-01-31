@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DRAGON_EGG"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LIGHT_BLUE_SHULKER_BOX"
+      },
+      {
+        "value": "CUSTOM:CapitalistaPickaxe"
+      },
+      {
+        "value": "Blocks.LIGHT_BLUE_SHULKER_BOX"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      },
+      {
+        "value": "CUSTOM:Capitalistaaxe"
+      },
+      {
+        "value": "Blocks.EMERALD_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Verycapitalistashovel"
+    },
+    "name": "very_capitalist_spade_recipe",
+    "namespace": "mod"
+  }
+}

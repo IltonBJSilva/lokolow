@@ -18,19 +18,19 @@ public class TomeaxeItem extends AxeItem {
 	public TomeaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 1000;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 5f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 8f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {
@@ -40,7 +40,7 @@ public class TomeaxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(LokolowModItems.TOME.get()));
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, 0f, new Item.Properties());
 	}
 
 	@Override

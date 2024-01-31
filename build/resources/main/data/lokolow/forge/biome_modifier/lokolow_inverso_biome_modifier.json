@@ -1,8 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": "#is_deep_ocean",
   "spawners": {
     "type": "lokolow:lokolow_inverso",
     "weight": 20,

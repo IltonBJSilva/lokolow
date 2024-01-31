@@ -10,7 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.lokolow.init.LokolowModBlocks;
+import net.mcreator.lokolow.init.LokolowModItems;
 
 import java.util.List;
 
@@ -18,15 +18,15 @@ public class VerycapitalistashovelItem extends ShovelItem {
 	public VerycapitalistashovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 1000;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 1000f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 998f;
 			}
 
 			public int getLevel() {
@@ -34,13 +34,33 @@ public class VerycapitalistashovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 1000;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(LokolowModBlocks.CAPITALISTAORE.get()));
+				return Ingredient.of(new ItemStack(LokolowModItems.CAPITALISTA_PICKAXE.get()));
 			}
-		}, 1, -3f, new Item.Properties());
+		}, 1, -3f, new Item.Properties().fireResistant());
+	}
+
+	@Override
+	public boolean hasCraftingRemainingItem(ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
+		ItemStack retval = new ItemStack(this);
+		retval.setDamageValue(itemstack.getDamageValue() + 1);
+		if (retval.getDamageValue() >= retval.getMaxDamage()) {
+			return ItemStack.EMPTY;
+		}
+		return retval;
+	}
+
+	@Override
+	public boolean isRepairable(ItemStack itemstack) {
+		return false;
 	}
 
 	@Override

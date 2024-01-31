@@ -1,0 +1,98 @@
+{
+  "lokolow_choi": {
+    "sounds": [
+      {
+        "name": "lokolow:lokolow-choi-choi-choi",
+        "stream": false
+      }
+    ]
+  },
+  "lokolow_morte": {
+    "sounds": [
+      {
+        "name": "lokolow:copia",
+        "stream": false
+      }
+    ]
+  },
+  "morte_de_lokolow": {
+    "sounds": [
+      {
+        "name": "lokolow:morte",
+        "stream": false
+      }
+    ]
+  },
+  "muie_morte": {
+    "sounds": [
+      {
+        "name": "lokolow:muie_morte",
+        "stream": false
+      }
+    ]
+  },
+  "muie_hit": {
+    "sounds": [
+      {
+        "name": "lokolow:hit_muie",
+        "stream": false
+      }
+    ]
+  },
+  "morte_rubio": {
+    "sounds": [
+      {
+        "name": "lokolow:rubionkn_morte",
+        "stream": false
+      }
+    ]
+  },
+  "rubiokn_hit": {
+    "sounds": [
+      {
+        "name": "lokolow:rubionkn_hit",
+        "stream": false
+      }
+    ]
+  },
+  "capitalism_honestamente": {
+    "sounds": [
+      {
+        "name": "lokolow:honestamente_capitalista",
+        "stream": false
+      }
+    ]
+  },
+  "helliot_morte": {
+    "sounds": [
+      {
+        "name": "lokolow:helliot_morte",
+        "stream": false
+      }
+    ]
+  },
+  "helliot_hit": {
+    "sounds": [
+      {
+        "name": "lokolow:helliot_hit",
+        "stream": false
+      }
+    ]
+  },
+  "capitalista_hit": {
+    "sounds": [
+      {
+        "name": "lokolow:capitalista_hit",
+        "stream": false
+      }
+    ]
+  },
+  "hit_no_capitalista": {
+    "sounds": [
+      {
+        "name": "lokolow:hit_no_capitalista",
+        "stream": false
+      }
+    ]
+  }
+}

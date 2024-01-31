@@ -42,10 +42,10 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "Items.GOLDEN_SWORD"
     },
     "equipmentOffHand": {
-      "value": ""
+      "value": "Items.GOLDEN_APPLE#1"
     },
     "equipmentHelmet": {
       "value": ""
@@ -59,9 +59,9 @@
     "equipmentBoots": {
       "value": ""
     },
-    "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "ILLAGER",
+    "attackStrength": 100,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
     "movementSpeed": 0.3,
@@ -86,21 +86,21 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
-    "immuneToCactus": false,
-    "immuneToDrowning": false,
-    "immuneToLightning": false,
-    "immuneToPotions": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": true,
+    "immuneToPotions": true,
     "immuneToPlayer": false,
-    "immuneToExplosion": false,
-    "immuneToTrident": false,
-    "immuneToAnvil": false,
-    "immuneToWither": false,
-    "immuneToDragonBreath": false,
+    "immuneToExplosion": true,
+    "immuneToTrident": true,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:Lokolow.spawn_egg"
     },
     "livingSound": {
       "value": ""
@@ -128,13 +128,17 @@
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
-    "spawnThisMob": true,
+    "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
-    "mobSpawningType": "monster",
-    "minNumberOfMobsPerGroup": 4,
-    "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "spawningProbability": 1,
+    "mobSpawningType": "ambient",
+    "minNumberOfMobsPerGroup": 1,
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [
+      {
+        "value": "#is_overworld"
+      }
+    ],
+    "spawnInDungeons": true
   }
 }

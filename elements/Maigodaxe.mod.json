@@ -16,22 +16,22 @@
       "value": "CUSTOM:LokolowCreativeTab"
     },
     "harvestLevel": 10,
-    "efficiency": 40.0,
+    "efficiency": 8.0,
     "attackSpeed": 10.0,
-    "enchantability": 20,
-    "damageVsEntity": 40.0,
-    "usageCount": 100,
+    "enchantability": 10,
+    "damageVsEntity": 10.0,
+    "usageCount": 700,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "CUSTOM:VeryCapitalista"
+        "value": "CUSTOM:Maigod"
       }
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": true
   }
 }

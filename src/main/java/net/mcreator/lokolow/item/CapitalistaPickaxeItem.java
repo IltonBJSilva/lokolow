@@ -10,7 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.lokolow.init.LokolowModBlocks;
+import net.mcreator.lokolow.init.LokolowModItems;
 
 import java.util.List;
 
@@ -22,15 +22,15 @@ public class CapitalistaPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 40f;
+				return 200f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 38f;
+				return 8f;
 			}
 
 			public int getLevel() {
-				return 40;
+				return 50;
 			}
 
 			public int getEnchantmentValue() {
@@ -38,9 +38,9 @@ public class CapitalistaPickaxeItem extends PickaxeItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of(new ItemStack(LokolowModBlocks.CAPITALISTAORE.get()));
+				return Ingredient.of(new ItemStack(LokolowModItems.VERY_CAPITALISTA.get()));
 			}
-		}, 1, 26f, new Item.Properties());
+		}, 1, 26f, new Item.Properties().fireResistant());
 	}
 
 	@Override

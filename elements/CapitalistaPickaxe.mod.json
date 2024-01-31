@@ -15,11 +15,11 @@
     "creativeTab": {
       "value": "CUSTOM:LokolowCreativeTab"
     },
-    "harvestLevel": 40,
-    "efficiency": 40.0,
+    "harvestLevel": 50,
+    "efficiency": 200.0,
     "attackSpeed": 30.0,
     "enchantability": 40,
-    "damageVsEntity": 40.0,
+    "damageVsEntity": 10.0,
     "usageCount": 5000,
     "blocksAffected": [],
     "glowCondition": {
@@ -27,11 +27,11 @@
     },
     "repairItems": [
       {
-        "value": "CUSTOM:Capitalistaore"
+        "value": "CUSTOM:VeryCapitalista"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": true
   }
 }

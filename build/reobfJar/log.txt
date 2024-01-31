@@ -134,187 +134,237 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/CapitalistaRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/GuleskateRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LokolowInversoRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LejukiRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/HelliiotRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/CapitalistaRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LokolowpresidenteRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LejukiVillagerRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/GuleskateRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LejukiWandinhaRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/lokolow/client/gui/SistemaDeTrocaScreen/keyPressed(III)Z from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/keyPressed(III)Z: keyPressed -> m_7933_
+Conflicting propagated mapping for net/mcreator/lokolow/client/gui/SistemaDeTrocaScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/render(Lnet/minecraft/client/gui/GuiGraphics;IIF)V: render -> m_88315_
+Conflicting propagated mapping for net/mcreator/lokolow/client/gui/SistemaDeTrocaScreen/onClose()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/onClose()V: onClose -> m_7379_
+Conflicting propagated mapping for net/mcreator/lokolow/client/gui/SistemaDeTrocaScreen/init()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/init()V: init -> m_7856_
+Conflicting propagated mapping for net/mcreator/lokolow/client/gui/SistemaDeTrocaScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderLabels(Lnet/minecraft/client/gui/GuiGraphics;II)V: renderLabels -> m_280003_
+Conflicting propagated mapping for net/mcreator/lokolow/client/gui/SistemaDeTrocaScreen/containerTick()V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/containerTick()V: containerTick -> m_181908_
+Conflicting propagated mapping for net/mcreator/lokolow/client/gui/SistemaDeTrocaScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V from net/minecraft/client/gui/screens/inventory/AbstractContainerScreen/renderBg(Lnet/minecraft/client/gui/GuiGraphics;FII)V: renderBg -> m_7286_
 Conflicting propagated mapping for net/mcreator/lokolow/block/MuieoreBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
-Conflicting propagated mapping for net/mcreator/lokolow/block/TomeoreBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
-Conflicting propagated mapping for net/mcreator/lokolow/block/MaigodeoreBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
-Conflicting propagated mapping for net/mcreator/lokolow/block/MuieoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for net/mcreator/lokolow/block/MaigodeoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/mcreator/lokolow/block/CapitalistaoreBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
-Conflicting propagated mapping for net/mcreator/lokolow/block/TomeoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/lokolow/block/MuieoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/mcreator/lokolow/block/CapitalistaoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
-Conflicting propagated mapping for net/mcreator/lokolow/block/MaigodeoreBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for net/mcreator/lokolow/block/MuieoreBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for net/mcreator/lokolow/block/CapitalistaoreBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/lokolow/block/MaigodeoreBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for net/mcreator/lokolow/block/MaigodeoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/lokolow/block/MaigodeoreBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/lokolow/block/TomeoreBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for net/mcreator/lokolow/block/TomeoreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/mcreator/lokolow/block/TomeoreBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z from net/minecraft/world/inventory/AbstractContainerMenu/moveItemStackTo(Lnet/minecraft/world/item/ItemStack;IIZ)Z: moveItemStackTo -> m_38903_
+Conflicting propagated mapping for net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu/removed(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/inventory/AbstractContainerMenu/removed(Lnet/minecraft/world/entity/player/Player;)V: removed -> m_6877_
+Conflicting propagated mapping for net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/AbstractContainerMenu/stillValid(Lnet/minecraft/world/entity/player/Player;)Z: stillValid -> m_6875_
+Conflicting propagated mapping for net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/AbstractContainerMenu/quickMoveStack(Lnet/minecraft/world/entity/player/Player;I)Lnet/minecraft/world/item/ItemStack;: quickMoveStack -> m_7648_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiVillagerEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiVillagerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiVillagerEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V from net/minecraft/world/entity/monster/RangedAttackMob/performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V: performRangedAttack -> m_6504_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiVillagerEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiVillagerEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiVillagerEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Blaze/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: stopSeenByPlayer -> m_6452_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/customServerAiStep()V from net/minecraft/world/entity/monster/Blaze/customServerAiStep()V: customServerAiStep -> m_8024_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/monster/Zombie/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_34328_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/monster/Blaze/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_32238_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Zombie/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/monster/Zombie/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/monster/Zombie/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/animal/IronGolem/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/monster/Zombie/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/registerGoals()V from net/minecraft/world/entity/monster/Zombie/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity/getMyRidingOffset()D from net/minecraft/world/entity/monster/Zombie/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Blaze/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/animal/IronGolem/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_28883_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: startSeenByPlayer -> m_6457_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/animal/IronGolem/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/canChangeDimensions()Z from net/minecraft/world/entity/LivingEntity/canChangeDimensions()Z: canChangeDimensions -> m_6072_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Witch/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/animal/IronGolem/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder; from net/minecraft/world/entity/monster/Witch/createAttributes()Lnet/minecraft/world/entity/ai/attributes/AttributeSupplier$Builder;: createAttributes -> m_34155_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Witch/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/raid/Raider/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/RubioKnRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LokowKruegerRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LokolowVillagerRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LokolowRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowVillagerEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowVillagerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowVillagerEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowVillagerEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/registerGoals()V from net/minecraft/world/entity/monster/Witch/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/registerGoals()V from net/minecraft/world/entity/monster/Blaze/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity/getMyRidingOffset()D from net/minecraft/world/entity/monster/PatrollingMonster/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/registerGoals()V from net/minecraft/world/entity/animal/IronGolem/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowVillagerEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LokolowRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/LokowKruegerRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/lokolow/client/renderer/RubioKnRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/SpawnGroupData; from net/minecraft/world/entity/Mob/finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/MobSpawnType;Lnet/minecraft/world/entity/SpawnGroupData;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/SpawnGroupData;: finalizeSpawn -> m_6518_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/entity/Mob/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: mobInteract -> m_6071_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiVillagerEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowVillagerEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/CapitalistaEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/GuleskateEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/HelliiotEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiEntity$2/canContinueToUse()Z from net/minecraft/world/entity/ai/goal/RangedAttackGoal/canContinueToUse()Z: canContinueToUse -> m_8045_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LejukiWandinhaEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob; from net/minecraft/world/entity/AgeableMob/getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;: getBreedOffspring -> m_142606_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/entity/animal/Animal/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: mobInteract -> m_6071_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowInversoEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowpresidenteEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowVillagerEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/LokowKruegerEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/getMyRidingOffset()D from net/minecraft/world/entity/animal/Animal/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/lokolow/entity/LokolowEntity/isFood(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/entity/animal/Animal/isFood(Lnet/minecraft/world/item/ItemStack;)Z: isFood -> m_6898_
 Conflicting propagated mapping for net/mcreator/lokolow/entity/RubioKnEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
-Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaNuggetsItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/lokolow/item/POTIONNEGATIVOItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/lokolow/item/POTIONNEGATIVOItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
+Conflicting propagated mapping for net/mcreator/lokolow/item/SummonMoutainItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/lokolow/item/SummonMoutainItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/mcreator/lokolow/item/SummonMoutainItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/mcreator/lokolow/potion/QINEGATIVOMobEffect/getDescriptionId()Ljava/lang/String; from net/minecraft/world/effect/MobEffect/getDescriptionId()Ljava/lang/String;: getDescriptionId -> m_19481_
+Conflicting propagated mapping for net/mcreator/lokolow/potion/QINEGATIVOMobEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
+Conflicting propagated mapping for net/mcreator/lokolow/potion/QINEGATIVOMobEffect/addAttributeModifiers(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/attributes/AttributeMap;I)V from net/minecraft/world/effect/MobEffect/addAttributeModifiers(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/attributes/AttributeMap;I)V: addAttributeModifiers -> m_6385_
+Conflicting propagated mapping for net/mcreator/lokolow/item/VerycapitalistashovelItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaNuggetsItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaPickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaPickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaPickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaPickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaPickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaPickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodpickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodpickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodpickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodpickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodpickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodpickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/minecraftforge/common/BasicItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; from net/minecraft/world/entity/npc/VillagerTrades$ItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer;: getOffer -> m_213663_
+Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaPickaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodpickaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/CapitalistaaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/lokolow/item/TomeaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MaigodaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/lokolow/item/SummonMoutainItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/SummonMoutainItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/mcreator/lokolow/item/TomeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomeaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomeaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomeaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomeaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomeaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomeaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/lokolow/item/TomeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/TomeaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
+Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
 Conflicting propagated mapping for net/mcreator/lokolow/item/VeryCapitalistaItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieshovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/lokolow/item/VerycapitalistashovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/lokolow/item/VerycapitalistashovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/lokolow/item/VerycapitalistashovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/lokolow/item/VerycapitalistashovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/lokolow/item/VerycapitalistashovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/lokolow/item/VerycapitalistashovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/lokolow/item/VerycapitalistashovelItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
-Conflicting propagated mapping for net/mcreator/lokolow/item/TomepickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/lokolow/item/MuieaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/lokolow/procedures/LokowKruegerRightClickedOnEntityProcedure$1/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuConstructor/createMenu(ILnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: createMenu -> m_7208_
+Conflicting propagated mapping for net/mcreator/lokolow/procedures/LokowKruegerRightClickedOnEntityProcedure$1/getDisplayName()Lnet/minecraft/network/chat/Component; from net/minecraft/world/MenuProvider/getDisplayName()Lnet/minecraft/network/chat/Component;: getDisplayName -> m_5446_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/set(Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/set(Lnet/minecraft/world/item/ItemStack;)V: set -> m_5852_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/inventory/Slot/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/remove(I)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/remove(I)Lnet/minecraft/world/item/ItemStack;: remove -> m_6201_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/inventory/Slot/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7993_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/inventory/Slot/getMaxStackSize(Lnet/minecraft/world/item/ItemStack;)I: getMaxStackSize -> m_5866_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z from net/minecraft/world/inventory/Slot/mayPickup(Lnet/minecraft/world/entity/player/Player;)Z: mayPickup -> m_8010_
+Conflicting propagated mapping for net/minecraftforge/items/SlotItemHandler/getMaxStackSize()I from net/minecraft/world/inventory/Slot/getMaxStackSize()I: getMaxStackSize -> m_6641_
+Conflicting propagated mapping for net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu$1/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V from net/minecraft/world/inventory/Slot/onTake(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;)V: onTake -> m_142406_
+Conflicting propagated mapping for net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu$1/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraftforge/items/SlotItemHandler/mayPlace(Lnet/minecraft/world/item/ItemStack;)Z: mayPlace -> m_5857_
+Conflicting propagated mapping for net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu$1/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V from net/minecraftforge/items/SlotItemHandler/onQuickCraft(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)V: onQuickCraft -> m_40234_
+Conflicting propagated mapping for net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu$2/setChanged()V from net/minecraft/world/inventory/Slot/setChanged()V: setChanged -> m_6654_
 Adding extras
 Sorting
 Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.jar
@@ -348,7 +398,6 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   assets/lokolow/models/item/lejuki_wandinha_spawn_egg.json
   assets/lokolow/models/item/lokolow_inverso_spawn_egg.json
   assets/lokolow/models/item/lokolow_spawn_egg.json
-  assets/lokolow/models/item/lokolow_villager_spawn_egg.json
   assets/lokolow/models/item/lokolowpresidente_spawn_egg.json
   assets/lokolow/models/item/lokow_krueger_spawn_egg.json
   assets/lokolow/models/item/maigod.json
@@ -359,6 +408,7 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   assets/lokolow/models/item/muieaxe.json
   assets/lokolow/models/item/muiehoe.json
   assets/lokolow/models/item/muieore.json
+  assets/lokolow/models/item/potionnegativo.json
   assets/lokolow/models/item/rubio_kn_spawn_egg.json
   assets/lokolow/models/item/summon_moutain.json
   assets/lokolow/models/item/tome.json
@@ -367,6 +417,20 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   assets/lokolow/models/item/tomepickaxe.json
   assets/lokolow/models/item/very_capitalista.json
   assets/lokolow/models/item/verycapitalistashovel.json
+  assets/lokolow/sounds.json
+  assets/lokolow/sounds/
+  assets/lokolow/sounds/capitalista_hit.ogg
+  assets/lokolow/sounds/copia.ogg
+  assets/lokolow/sounds/helliot_hit.ogg
+  assets/lokolow/sounds/helliot_morte.ogg
+  assets/lokolow/sounds/hit_muie.ogg
+  assets/lokolow/sounds/hit_no_capitalista.ogg
+  assets/lokolow/sounds/honestamente_capitalista.ogg
+  assets/lokolow/sounds/lokolow-choi-choi-choi.ogg
+  assets/lokolow/sounds/morte.ogg
+  assets/lokolow/sounds/muie_morte.ogg
+  assets/lokolow/sounds/rubionkn_hit.ogg
+  assets/lokolow/sounds/rubionkn_morte.ogg
   assets/lokolow/textures/
   assets/lokolow/textures/block/
   assets/lokolow/textures/block/capitalista_ore.png
@@ -386,6 +450,16 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   assets/lokolow/textures/entities/muie_normal.png
   assets/lokolow/textures/entities/muie_vandinha.png
   assets/lokolow/textures/entities/rubiokn.png
+  assets/lokolow/textures/entities/skinlokolowvillager.png
+  assets/lokolow/textures/entities/zombieskinlokolowvillager.png
+  assets/lokolow/textures/entity/
+  assets/lokolow/textures/entity/villager/
+  assets/lokolow/textures/entity/villager/profession/
+  assets/lokolow/textures/entity/villager/profession/capitalista_profession.png
+  assets/lokolow/textures/entity/villager/profession/capitalista_profession.png.mcmeta
+  assets/lokolow/textures/entity/zombie_villager/
+  assets/lokolow/textures/entity/zombie_villager/profession/
+  assets/lokolow/textures/entity/zombie_villager/profession/capitalista_profession.png
   assets/lokolow/textures/item/
   assets/lokolow/textures/item/capitalista.png
   assets/lokolow/textures/item/capitalista_axe.png
@@ -397,27 +471,37 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   assets/lokolow/textures/item/muie.png
   assets/lokolow/textures/item/muie_axe.png
   assets/lokolow/textures/item/muie_shovel.png
+  assets/lokolow/textures/item/potion_mine.png
   assets/lokolow/textures/item/summon_moutain.png
   assets/lokolow/textures/item/tome.png
   assets/lokolow/textures/item/tome_axe.png
   assets/lokolow/textures/item/tome_pickaxe.png
   assets/lokolow/textures/item/very_capitalista_shovel.png
+  assets/lokolow/textures/mob_effect/
+  assets/lokolow/textures/mob_effect/poison_je3_be2.png
+  assets/lokolow/textures/mob_effect/qinegativo.png
+  assets/lokolow/textures/particle/
+  assets/lokolow/textures/particle/potionqizero.png
+  assets/lokolow/textures/screens/
+  assets/lokolow/textures/screens/591884.png
+  assets/lokolow/textures/screens/icone-de-seta_701361-329-removebg-preview.png
+  assets/lokolow/textures/screens/sistema_de_troca.png
   data/
   data/lokolow/
   data/lokolow/forge/
   data/lokolow/forge/biome_modifier/
   data/lokolow/forge/biome_modifier/capitalista_biome_modifier.json
-  data/lokolow/forge/biome_modifier/guleskate_biome_modifier.json
+  data/lokolow/forge/biome_modifier/capitalistaore_biome_modifier.json
   data/lokolow/forge/biome_modifier/helliiot_biome_modifier.json
   data/lokolow/forge/biome_modifier/lejuki_biome_modifier.json
-  data/lokolow/forge/biome_modifier/lejuki_villager_biome_modifier.json
   data/lokolow/forge/biome_modifier/lejuki_wandinha_biome_modifier.json
   data/lokolow/forge/biome_modifier/lokolow_biome_modifier.json
   data/lokolow/forge/biome_modifier/lokolow_inverso_biome_modifier.json
-  data/lokolow/forge/biome_modifier/lokolow_villager_biome_modifier.json
-  data/lokolow/forge/biome_modifier/lokolowpresidente_biome_modifier.json
   data/lokolow/forge/biome_modifier/lokow_krueger_biome_modifier.json
+  data/lokolow/forge/biome_modifier/maigodeore_biome_modifier.json
+  data/lokolow/forge/biome_modifier/muieore_biome_modifier.json
   data/lokolow/forge/biome_modifier/rubio_kn_biome_modifier.json
+  data/lokolow/forge/biome_modifier/tomeore_biome_modifier.json
   data/lokolow/recipes/
   data/lokolow/recipes/capitalista_axe_recipe.json
   data/lokolow/recipes/capitalista_pickaxe_recipe.json
@@ -429,23 +513,38 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   data/lokolow/recipes/summon_moutain_recipe.json
   data/lokolow/recipes/tome_axe_recipe.json
   data/lokolow/recipes/tome_pickaxe_recipe.json
+  data/lokolow/recipes/very_capitalist_spade_recipe.json
   data/lokolow/structures/
   data/lokolow/structures/casa.nbt
   data/lokolow/structures/montanha_russa_lokolow.nbt
   data/lokolow/structures/montanharussa.nbt
   data/lokolow/worldgen/
+  data/lokolow/worldgen/configured_feature/
+  data/lokolow/worldgen/configured_feature/capitalistaore.json
+  data/lokolow/worldgen/configured_feature/maigodeore.json
+  data/lokolow/worldgen/configured_feature/muieore.json
+  data/lokolow/worldgen/configured_feature/tomeore.json
+  data/lokolow/worldgen/placed_feature/
+  data/lokolow/worldgen/placed_feature/capitalistaore.json
+  data/lokolow/worldgen/placed_feature/maigodeore.json
+  data/lokolow/worldgen/placed_feature/muieore.json
+  data/lokolow/worldgen/placed_feature/tomeore.json
   data/lokolow/worldgen/structure/
-  data/lokolow/worldgen/structure/casa.json
   data/lokolow/worldgen/structure/montanharussalokolow.json
   data/lokolow/worldgen/structure_set/
-  data/lokolow/worldgen/structure_set/casa.json
   data/lokolow/worldgen/structure_set/montanharussalokolow.json
   data/lokolow/worldgen/template_pool/
-  data/lokolow/worldgen/template_pool/casa.json
   data/lokolow/worldgen/template_pool/montanharussalokolow.json
   data/minecraft/
   data/minecraft/recipes/
   data/minecraft/recipes/tome_recipe.json
+  data/minecraft/tags/
+  data/minecraft/tags/blocks/
+  data/minecraft/tags/blocks/mineable/
+  data/minecraft/tags/blocks/mineable/axe.json
+  data/minecraft/tags/blocks/mineable/pickaxe.json
+  data/minecraft/tags/point_of_interest_type/
+  data/minecraft/tags/point_of_interest_type/acquirable_job_site.json
   net/
   net/mcreator/
   net/mcreator/lokolow/
@@ -456,16 +555,16 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   net/mcreator/lokolow/block/MuieoreBlock.class
   net/mcreator/lokolow/block/TomeoreBlock.class
   net/mcreator/lokolow/client/
+  net/mcreator/lokolow/client/gui/
+  net/mcreator/lokolow/client/gui/SistemaDeTrocaScreen.class
   net/mcreator/lokolow/client/renderer/
   net/mcreator/lokolow/client/renderer/CapitalistaRenderer.class
   net/mcreator/lokolow/client/renderer/GuleskateRenderer.class
   net/mcreator/lokolow/client/renderer/HelliiotRenderer.class
   net/mcreator/lokolow/client/renderer/LejukiRenderer.class
-  net/mcreator/lokolow/client/renderer/LejukiVillagerRenderer.class
   net/mcreator/lokolow/client/renderer/LejukiWandinhaRenderer.class
   net/mcreator/lokolow/client/renderer/LokolowInversoRenderer.class
   net/mcreator/lokolow/client/renderer/LokolowRenderer.class
-  net/mcreator/lokolow/client/renderer/LokolowVillagerRenderer.class
   net/mcreator/lokolow/client/renderer/LokolowpresidenteRenderer.class
   net/mcreator/lokolow/client/renderer/LokowKruegerRenderer.class
   net/mcreator/lokolow/client/renderer/RubioKnRenderer.class
@@ -477,17 +576,14 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   net/mcreator/lokolow/entity/HelliiotEntity$1.class
   net/mcreator/lokolow/entity/HelliiotEntity.class
   net/mcreator/lokolow/entity/LejukiEntity$1.class
+  net/mcreator/lokolow/entity/LejukiEntity$2.class
   net/mcreator/lokolow/entity/LejukiEntity.class
-  net/mcreator/lokolow/entity/LejukiVillagerEntity$1.class
-  net/mcreator/lokolow/entity/LejukiVillagerEntity.class
   net/mcreator/lokolow/entity/LejukiWandinhaEntity$1.class
   net/mcreator/lokolow/entity/LejukiWandinhaEntity.class
   net/mcreator/lokolow/entity/LokolowEntity$1.class
   net/mcreator/lokolow/entity/LokolowEntity.class
   net/mcreator/lokolow/entity/LokolowInversoEntity$1.class
   net/mcreator/lokolow/entity/LokolowInversoEntity.class
-  net/mcreator/lokolow/entity/LokolowVillagerEntity$1.class
-  net/mcreator/lokolow/entity/LokolowVillagerEntity.class
   net/mcreator/lokolow/entity/LokolowpresidenteEntity$1.class
   net/mcreator/lokolow/entity/LokolowpresidenteEntity.class
   net/mcreator/lokolow/entity/LokowKruegerEntity$1.class
@@ -499,7 +595,14 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   net/mcreator/lokolow/init/LokolowModEntities.class
   net/mcreator/lokolow/init/LokolowModEntityRenderers.class
   net/mcreator/lokolow/init/LokolowModItems.class
+  net/mcreator/lokolow/init/LokolowModMenus.class
+  net/mcreator/lokolow/init/LokolowModMobEffects.class
+  net/mcreator/lokolow/init/LokolowModScreens.class
+  net/mcreator/lokolow/init/LokolowModSounds.class
   net/mcreator/lokolow/init/LokolowModTabs.class
+  net/mcreator/lokolow/init/LokolowModTrades.class
+  net/mcreator/lokolow/init/LokolowModVillagerProfessions$ProfessionPoiType.class
+  net/mcreator/lokolow/init/LokolowModVillagerProfessions.class
   net/mcreator/lokolow/item/
   net/mcreator/lokolow/item/CapitalistaNuggetsItem.class
   net/mcreator/lokolow/item/CapitalistaPickaxeItem$1.class
@@ -516,6 +619,7 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   net/mcreator/lokolow/item/MuieaxeItem.class
   net/mcreator/lokolow/item/MuieshovelItem$1.class
   net/mcreator/lokolow/item/MuieshovelItem.class
+  net/mcreator/lokolow/item/POTIONNEGATIVOItem.class
   net/mcreator/lokolow/item/SummonMoutainItem.class
   net/mcreator/lokolow/item/TomeItem.class
   net/mcreator/lokolow/item/TomeaxeItem$1.class
@@ -525,6 +629,27 @@ Writing Output: C:\Users\ilton\MCreatorWorkspaces\lokolow\build\reobfJar\output.
   net/mcreator/lokolow/item/VeryCapitalistaItem.class
   net/mcreator/lokolow/item/VerycapitalistashovelItem$1.class
   net/mcreator/lokolow/item/VerycapitalistashovelItem.class
+  net/mcreator/lokolow/network/
+  net/mcreator/lokolow/network/SistemaDeTrocaButtonMessage.class
+  net/mcreator/lokolow/network/SistemaDeTrocaSlotMessage.class
+  net/mcreator/lokolow/potion/
+  net/mcreator/lokolow/potion/QINEGATIVOMobEffect.class
   net/mcreator/lokolow/procedures/
+  net/mcreator/lokolow/procedures/AnteriorItemProcedure.class
+  net/mcreator/lokolow/procedures/ItensquepodemsairProcedure.class
+  net/mcreator/lokolow/procedures/LokowKruegerOnInitialEntitySpawnProcedure.class
+  net/mcreator/lokolow/procedures/LokowKruegerRightClickedOnEntityProcedure$1.class
+  net/mcreator/lokolow/procedures/LokowKruegerRightClickedOnEntityProcedure.class
+  net/mcreator/lokolow/procedures/POTIONNEGATIVOQuandoClicadoComOBotaoDireitoProcedure.class
+  net/mcreator/lokolow/procedures/ProximoitemProcedure.class
+  net/mcreator/lokolow/procedures/QINEGATIVOQuandoAPocaoIniciadaaplicadaProcedure.class
+  net/mcreator/lokolow/procedures/QuebrabedrockProcedure.class
+  net/mcreator/lokolow/procedures/RemoverProcedure.class
   net/mcreator/lokolow/procedures/SummonMoutainRightclickedOnBlockProcedure.class
+  net/mcreator/lokolow/procedures/TesteItensProcedure.class
+  net/mcreator/lokolow/world/
+  net/mcreator/lokolow/world/inventory/
+  net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu$1.class
+  net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu$2.class
+  net/mcreator/lokolow/world/inventory/SistemaDeTrocaMenu.class
   pack.mcmeta
