@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "Items.EMERALD",
+      "",
+      "Items.EMERALD",
+      "CUSTOM:Tome",
+      "Items.EMERALD",
+      "",
+      "Items.EMERALD",
+      ""
+    ],
+    "recipeReturnStack": "CUSTOM:DiscoLokolow",
+    "name": "disco_lokolow_recipe",
+    "namespace": "mod"
+  }
+}

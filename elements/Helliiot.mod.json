@@ -2,7 +2,7 @@
   "_fv": 89,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Helliiot",
+    "mobName": "Helliot",
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "eliot.png",
@@ -107,7 +107,7 @@
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 11,
-    "mobSpawningType": "ambient",
+    "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [

@@ -24,7 +24,9 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      "CUSTOM:Maigod"
+    ],
     "immuneToFire": false,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],

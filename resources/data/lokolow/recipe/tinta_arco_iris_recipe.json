@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:red_dye",
+    "minecraft:yellow_dye",
+    "minecraft:green_dye",
+    "minecraft:blue_dye",
+    "minecraft:purple_dye",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "lokolow:tinta_arco_iris",
+    "count": 4
+  }
+}

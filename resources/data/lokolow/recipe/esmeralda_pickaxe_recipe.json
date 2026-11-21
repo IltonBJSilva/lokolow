@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "minecraft:emerald",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "lokolow:esmeralda_pickaxe",
+    "count": 1
+  }
+}

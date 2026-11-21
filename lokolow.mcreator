@@ -1002,6 +1002,500 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "GritoCapitalismo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grito_capitalismo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/GritoCapitalismoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "LejukiVillagerTroca",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lejuki_villager_troca",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/LejukiVillagerTrocaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "InvocarPresidente",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "invocar_presidente",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/InvocarPresidenteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "PresidenteMorre",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "presidente_morre",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/PresidenteMorreProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "BeberPocaoQI",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beber_pocao_qi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/BeberPocaoQIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "PocaoQINoMob",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocao_qino_mob",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/PocaoQINoMobProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "AplicarTintaArcoIris",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aplicar_tinta_arco_iris",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/AplicarTintaArcoIrisProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "BlocoDaSorteQuebrado",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloco_da_sorte_quebrado",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/procedures/BlocoDaSorteQuebradoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "LokolowVillager",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lokolow_villager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/lokolow_villager_spawn_egg.json",
+          "src/main/resources/data/lokolow/neoforge/biome_modifier/lokolow_villager_biome_modifier.json",
+          "src/main/resources/assets/lokolow/items/lokolow_villager_spawn_egg.json",
+          "src/main/java/net/mcreator/lokolow/entity/LokolowVillagerEntity.java",
+          "src/main/java/net/mcreator/lokolow/client/renderer/LokolowVillagerRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "LejukiVillager",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lejuki_villager",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/items/lejuki_villager_spawn_egg.json",
+          "src/main/java/net/mcreator/lokolow/client/renderer/LejukiVillagerRenderer.java",
+          "src/main/java/net/mcreator/lokolow/entity/LejukiVillagerEntity.java",
+          "src/main/resources/assets/lokolow/models/item/lejuki_villager_spawn_egg.json",
+          "src/main/resources/data/lokolow/neoforge/biome_modifier/lejuki_villager_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "UrnaEletronica",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urna_eletronica",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/items/urna_eletronica.json",
+          "src/main/resources/assets/lokolow/models/item/urna_eletronica.json",
+          "src/main/java/net/mcreator/lokolow/item/UrnaEletronicaItem.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "TintaArcoIris",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinta_arco_iris",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/item/TintaArcoIrisItem.java",
+          "src/main/resources/assets/lokolow/models/item/tinta_arco_iris.json",
+          "src/main/resources/assets/lokolow/items/tinta_arco_iris.json"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "DiscoLokolow",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_lokolow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lokolow/item/DiscoLokolowItem.java",
+          "src/main/resources/data/lokolow/jukebox_song/disco_lokolow.json",
+          "src/main/resources/assets/lokolow/items/disco_lokolow.json",
+          "src/main/resources/assets/lokolow/models/item/disco_lokolow.json"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "EsmeraldaPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esmeralda_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/items/esmeralda_pickaxe.json",
+          "src/main/java/net/mcreator/lokolow/item/EsmeraldaPickaxeItem.java",
+          "src/main/resources/assets/lokolow/models/item/esmeralda_pickaxe.json"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "EsmeraldaAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esmeralda_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/esmeralda_axe.json",
+          "src/main/java/net/mcreator/lokolow/item/EsmeraldaAxeItem.java",
+          "src/main/resources/assets/lokolow/items/esmeralda_axe.json"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "EsmeraldaShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esmeralda_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/models/item/esmeralda_shovel.json",
+          "src/main/java/net/mcreator/lokolow/item/EsmeraldaShovelItem.java",
+          "src/main/resources/assets/lokolow/items/esmeralda_shovel.json"
+        ]
+      },
+      "path": "~/Ferramentas"
+    },
+    {
+      "name": "BlocoDaSorte",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloco_da_sorte",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lokolow/items/bloco_da_sorte.json",
+          "src/main/resources/data/lokolow/neoforge/biome_modifier/bloco_da_sorte_biome_modifier.json",
+          "src/main/resources/data/lokolow/worldgen/placed_feature/bloco_da_sorte.json",
+          "src/main/resources/data/lokolow/worldgen/configured_feature/bloco_da_sorte.json",
+          "src/main/resources/data/lokolow/loot_table/blocks/bloco_da_sorte.json",
+          "src/main/resources/assets/lokolow/models/item/bloco_da_sorte.json",
+          "src/main/resources/assets/lokolow/blockstates/bloco_da_sorte.json",
+          "src/main/resources/assets/lokolow/models/block/bloco_da_sorte.json",
+          "src/main/java/net/mcreator/lokolow/block/BlocoDaSorteBlock.java"
+        ]
+      },
+      "path": "~/Itens"
+    },
+    {
+      "name": "EsmeraldaPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esmeralda_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipe/esmeralda_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EsmeraldaAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esmeralda_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipe/esmeralda_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "EsmeraldaShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "esmeralda_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipe/esmeralda_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "UrnaEletronicaRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "urna_eletronica_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipe/urna_eletronica_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "TintaArcoIrisRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinta_arco_iris_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipe/tinta_arco_iris_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "DiscoLokolowRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_lokolow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipe/disco_lokolow_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "POTIONNEGATIVORecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionnegativorecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipe/potionnegativorecipe.json"
+        ]
+      },
+      "path": "~/Recipes"
+    },
+    {
+      "name": "BlocoDaSorteRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloco_da_sorte_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/recipe/bloco_da_sorte_recipe.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -1101,6 +1595,14 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "tema_lokolow",
+      "files": [
+        "tema_lokolow"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
@@ -1126,7 +1628,7 @@
       "~Tomepickaxe@CUSTOM:Tome"
     ],
     "ITEMS:lokolow:verycapitalistashovel_repair_items": [
-      "~Verycapitalistashovel@CUSTOM:CapitalistaPickaxe"
+      "~Verycapitalistashovel@CUSTOM:VeryCapitalista"
     ],
     "VILLAGER_TRADES:lokolow:capitalista_profession/level_1": [
       "~LokolowVillagerTrader@lokolow_villager_trader_1",
@@ -1168,40 +1670,69 @@
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~Tomeore@CUSTOM:Tomeore",
+      "~Maigodeore@CUSTOM:Maigodeore",
+      "~Capitalistaore@CUSTOM:Capitalistaore"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~Tomeore@CUSTOM:Tomeore",
+      "~Capitalistaore@CUSTOM:Capitalistaore"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
       "~Maigodeore@CUSTOM:Maigodeore"
     ],
     "BLOCKS:minecraft:mineable/axe": [
       "~Muieore@CUSTOM:Muieore"
     ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~Muieore@CUSTOM:Muieore"
+    ],
     "ITEMS:minecraft:axes": [
+      "~EsmeraldaAxe@CUSTOM:EsmeraldaAxe",
       "~Tomeaxe@CUSTOM:Tomeaxe",
       "~Muieaxe@CUSTOM:Muieaxe",
       "~Maigodaxe@CUSTOM:Maigodaxe",
       "~Capitalistaaxe@CUSTOM:Capitalistaaxe"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~EsmeraldaPickaxe@CUSTOM:EsmeraldaPickaxe",
       "~Tomepickaxe@CUSTOM:Tomepickaxe",
       "~Maigodpickaxe@CUSTOM:Maigodpickaxe",
       "~CapitalistaPickaxe@CUSTOM:CapitalistaPickaxe"
+    ],
+    "ITEMS:lokolow:maigodpickaxe_repair_items": [
+      "~Maigodpickaxe@CUSTOM:Maigod"
     ],
     "ITEMS:minecraft:hoes": [
       "~Muieshovel@CUSTOM:Muieshovel"
     ],
     "ITEMS:minecraft:shovels": [
+      "~EsmeraldaShovel@CUSTOM:EsmeraldaShovel",
       "~Verycapitalistashovel@CUSTOM:Verycapitalistashovel"
     ],
     "POINTS_OF_INTEREST:minecraft:acquirable_job_site": [
       "~CapitalistaProfession@CUSTOM:CapitalistaProfession"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~DiscoLokolow@CUSTOM:DiscoLokolow"
+    ],
+    "ITEMS:lokolow:esmeralda_pickaxe_repair_items": [
+      "~EsmeraldaPickaxe@Items.EMERALD"
+    ],
+    "ITEMS:lokolow:esmeralda_axe_repair_items": [
+      "~EsmeraldaAxe@Items.EMERALD"
+    ],
+    "ITEMS:lokolow:esmeralda_shovel_repair_items": [
+      "~EsmeraldaShovel@Items.EMERALD"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.lokolow.capitalistaore": "Capitalistaore",
-      "block.lokolow.muieore": "Muieore",
+      "block.lokolow.capitalistaore": "Capitalista Ore",
+      "block.lokolow.muieore": "Muie Ore",
       "item.lokolow.maigod": "Maigod",
       "item.lokolow.muiehoe": "Muie hoe",
-      "item.lokolow.rubio_kn_spawn_egg": "Rubio Kn Spawn Egg",
+      "item.lokolow.rubio_kn_spawn_egg": "RubionKn Spawn Egg",
       "item.lokolow.capitalista_nuggets": "Capitalista Nuggets",
       "item.lokolow.potionnegativo": "Poção de Doideira",
       "subtitles.lokolow_choi": "",
@@ -1212,12 +1743,12 @@
       "item.lokolow.tome": "Tome",
       "subtitles.helliot_morte": "",
       "item.lokolow.muie": "Muie",
-      "block.lokolow.maigodeore": "Maigodeore",
-      "entity.lokolow.lokolowpresidente": "Lokolowpresidente",
-      "entity.lokolow.lokow_krueger": "Lokow Krueger",
+      "block.lokolow.maigodeore": "Maigod Ore",
+      "entity.lokolow.lokolowpresidente": "Lokolow Presidente",
+      "entity.lokolow.lokow_krueger": "Lokolow Krueger",
       "entity.lokolow.lokolow": "Lokolow",
-      "entity.lokolow.lejuki_wandinha": "Lejuki Wandinha",
-      "entity.lokolow.helliiot": "Helliiot",
+      "entity.lokolow.lejuki_wandinha": "Lejuki Vandinha",
+      "entity.lokolow.helliiot": "Helliot",
       "item.lokolow.lokolow_spawn_egg": "Lokolow Spawn Egg",
       "subtitles.helliot_hit": "",
       "gui.lokolow.sistema_de_troca.label_empty": "--------\u003e",
@@ -1229,17 +1760,17 @@
       "entity.lokolow.lejuki": "Lejuki",
       "entity.lokolow.lokolow_inverso": "Lokolow Inverso",
       "item.lokolow.capitalista_pickaxe": "Capitalista Pickaxe",
-      "item.lokolow.lokow_krueger_spawn_egg": "Lokow Krueger Spawn Egg",
+      "item.lokolow.lokow_krueger_spawn_egg": "Lokolow Krueger Spawn Egg",
       "gui.lokolow.sistema_de_troca.button_empty": "\u003e",
-      "item.lokolow.lejuki_wandinha_spawn_egg": "Lejuki Wandinha Spawn Egg",
-      "block.lokolow.tomeore": "Tomeore",
+      "item.lokolow.lejuki_wandinha_spawn_egg": "Lejuki Vandinha Spawn Egg",
+      "block.lokolow.tomeore": "Tome Ore",
       "gui.lokolow.sistema_de_troca.button_empty1": "\u003c",
       "item.lokolow.guleskate_spawn_egg": "Guleskate Spawn Egg",
       "entity.lokolow.capitalista": "Capitalista",
       "subtitles.morte_rubio": "",
       "item.lokolow.lejuki_spawn_egg": "Lejuki Spawn Egg",
       "entity.minecraft.villager.lokolow.capitalista_profession": "Capitalista Profession",
-      "item.lokolow.lokolowpresidente_spawn_egg": "Lokolowpresidente Spawn Egg",
+      "item.lokolow.lokolowpresidente_spawn_egg": "Lokolow Presidente Spawn Egg",
       "subtitles.muie_morte": "",
       "subtitles.hit_no_capitalista": "",
       "item.lokolow.maigodaxe": "Maigod Axe",
@@ -1249,17 +1780,108 @@
       "item.lokolow.verycapitalistashovel": "Very Capitalista Spade",
       "subtitles.rubiokn_hit": "",
       "subtitles.morte_de_lokolow": "",
-      "item.lokolow.helliiot_spawn_egg": "Helliiot Spawn Egg",
+      "item.lokolow.helliiot_spawn_egg": "Helliot Spawn Egg",
       "item.lokolow.very_capitalista": "Very Capitalista",
       "subtitles.muie_hit": "",
       "item.lokolow.summon_moutain": "Summon Moutain",
-      "entity.lokolow.rubio_kn": "Rubio Kn",
+      "entity.lokolow.rubio_kn": "RubionKn",
       "item_group.lokolow.lokolow_creative_tab": "Lokolow Creative Tab",
       "item.lokolow.capitalistaore": "Capitalistaore",
       "item.lokolow.maigodeore": "Maigodeore",
       "item.lokolow.muieore": "Muieore",
       "item.lokolow.tomeore": "Tomeore",
-      "entity.villager.lokolow.capitalista_profession": "Capitalista Profession"
+      "entity.villager.lokolow.capitalista_profession": "Capitalista Profession",
+      "entity.lokolow.lokolow_villager": "Lokolow Villager",
+      "item.lokolow.lokolow_villager_spawn_egg": "Lokolow Villager Spawn Egg",
+      "entity.lokolow.lejuki_villager": "Lejuki Villager",
+      "item.lokolow.lejuki_villager_spawn_egg": "Lejuki Villager Spawn Egg",
+      "item.lokolow.urna_eletronica": "Urna Eletronica",
+      "item.lokolow.tinta_arco_iris": "Tinta Arco-Iris",
+      "item.lokolow.disco_lokolow": "Disco: Tema do Lokolow",
+      "item.lokolow.esmeralda_pickaxe": "Picareta de Esmeralda",
+      "item.lokolow.esmeralda_axe": "Machado de Esmeralda",
+      "item.lokolow.esmeralda_shovel": "Pa de Esmeralda",
+      "block.lokolow.bloco_da_sorte": "Bloco da Sorte do Lokolow",
+      "item.lokolow.bloco_da_sorte": "Bloco da Sorte do Lokolow",
+      "item.lokolow.disco_lokolow.desc": "Lokolow - Tema do Mod"
+    },
+    "pt_br": {
+      "block.lokolow.capitalistaore": "Minério de Capitalista",
+      "block.lokolow.muieore": "Minério de Muie",
+      "item.lokolow.maigod": "Barra de Maigod",
+      "item.lokolow.muiehoe": "Enxada de Muie",
+      "item.lokolow.rubio_kn_spawn_egg": "Ovo de RubionKn",
+      "item.lokolow.capitalista_nuggets": "Pepitas de Capitalista",
+      "item.lokolow.potionnegativo": "Poção de QI Negativo",
+      "subtitles.lokolow_choi": "",
+      "item.lokolow.tomepickaxe": "Picareta de Tome",
+      "effect.lokolow.qinegativo": "QI Negativo",
+      "item.lokolow.lokolow_inverso_spawn_egg": "Ovo de Lokolow Inverso",
+      "gui.lokolow.sistema_de_troca.label_capitalizar": "Capitalizar",
+      "item.lokolow.tome": "Tome",
+      "subtitles.helliot_morte": "",
+      "item.lokolow.muie": "Muie",
+      "block.lokolow.maigodeore": "Minério de Maigod",
+      "entity.lokolow.lokolowpresidente": "Lokolow Presidente",
+      "entity.lokolow.lokow_krueger": "Lokolow Krueger",
+      "entity.lokolow.lokolow": "Lokolow",
+      "entity.lokolow.lejuki_wandinha": "Lejuki Vandinha",
+      "entity.lokolow.helliiot": "Helliot",
+      "item.lokolow.lokolow_spawn_egg": "Ovo de Lokolow",
+      "subtitles.helliot_hit": "",
+      "gui.lokolow.sistema_de_troca.label_empty": "--------\u003e",
+      "item.lokolow.capitalista_spawn_egg": "Ovo de Capitalista",
+      "item.lokolow.maigodpickaxe": "Picareta de Maigod",
+      "item.lokolow.muieaxe": "Machado Tunado de Muie",
+      "subtitles.capitalism_honestamente": "",
+      "item.lokolow.capitalistaaxe": "Machado de Capitalista",
+      "entity.lokolow.lejuki": "Lejuki",
+      "entity.lokolow.lokolow_inverso": "Lokolow Inverso",
+      "item.lokolow.capitalista_pickaxe": "Picareta de Capitalista",
+      "item.lokolow.lokow_krueger_spawn_egg": "Ovo de Lokolow Krueger",
+      "gui.lokolow.sistema_de_troca.button_empty": "\u003e",
+      "item.lokolow.lejuki_wandinha_spawn_egg": "Ovo de Lejuki Vandinha",
+      "block.lokolow.tomeore": "Minério de Tome",
+      "gui.lokolow.sistema_de_troca.button_empty1": "\u003c",
+      "item.lokolow.guleskate_spawn_egg": "Ovo de Guleskate",
+      "entity.lokolow.capitalista": "Capitalista",
+      "subtitles.morte_rubio": "",
+      "item.lokolow.lejuki_spawn_egg": "Ovo de Lejuki",
+      "entity.minecraft.villager.lokolow.capitalista_profession": "Capitalista",
+      "item.lokolow.lokolowpresidente_spawn_egg": "Ovo de Lokolow Presidente",
+      "subtitles.muie_morte": "",
+      "subtitles.hit_no_capitalista": "",
+      "item.lokolow.maigodaxe": "Machado de Maigod",
+      "entity.lokolow.guleskate": "Guleskate",
+      "item.lokolow.tomeaxe": "Machado de Tome",
+      "subtitles.capitalista_hit": "",
+      "item.lokolow.verycapitalistashovel": "Pá Muito Capitalista",
+      "subtitles.rubiokn_hit": "",
+      "subtitles.morte_de_lokolow": "",
+      "item.lokolow.helliiot_spawn_egg": "Ovo de Helliot",
+      "item.lokolow.very_capitalista": "Muito Capitalista",
+      "subtitles.muie_hit": "",
+      "item.lokolow.summon_moutain": "Invocar Montanha-Russa",
+      "entity.lokolow.rubio_kn": "RubionKn",
+      "item_group.lokolow.lokolow_creative_tab": "Mod Lokolow",
+      "item.lokolow.capitalistaore": "Minério de Capitalista",
+      "item.lokolow.maigodeore": "Minério de Maigod",
+      "item.lokolow.muieore": "Minério de Muie",
+      "item.lokolow.tomeore": "Minério de Tome",
+      "entity.villager.lokolow.capitalista_profession": "Capitalista",
+      "entity.lokolow.lokolow_villager": "Lokolow Villager",
+      "item.lokolow.lokolow_villager_spawn_egg": "Ovo de Lokolow Villager",
+      "entity.lokolow.lejuki_villager": "Lejuki Villager",
+      "item.lokolow.lejuki_villager_spawn_egg": "Ovo de Lejuki Villager",
+      "item.lokolow.urna_eletronica": "Urna Eletrônica",
+      "item.lokolow.tinta_arco_iris": "Tinta Arco-Íris",
+      "item.lokolow.disco_lokolow": "Disco: Tema do Lokolow",
+      "item.lokolow.esmeralda_pickaxe": "Picareta de Esmeralda",
+      "item.lokolow.esmeralda_axe": "Machado de Esmeralda",
+      "item.lokolow.esmeralda_shovel": "Pá de Esmeralda",
+      "block.lokolow.bloco_da_sorte": "Bloco da Sorte do Lokolow",
+      "item.lokolow.bloco_da_sorte": "Bloco da Sorte do Lokolow",
+      "item.lokolow.disco_lokolow.desc": "Lokolow - Tema do Mod"
     }
   },
   "metadata": {

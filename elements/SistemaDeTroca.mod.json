@@ -17,9 +17,8 @@
           "disablePickup": {
             "fixedValue": false
           },
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "onTakenFromSlot": "Remover",
-          "onStackTransfer": "Remover",
           "x": 240,
           "y": 73,
           "locked": false
@@ -38,7 +37,7 @@
           "disablePickup": {
             "fixedValue": false
           },
-          "dropItemsWhenNotBound": false,
+          "dropItemsWhenNotBound": true,
           "onSlotChanged": "Itensquepodemsair",
           "x": 155,
           "y": 73,

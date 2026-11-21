@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": "minecraft:emerald",
+    "b": "lokolow:tome"
+  },
+  "result": {
+    "id": "lokolow:disco_lokolow",
+    "count": 1
+  }
+}

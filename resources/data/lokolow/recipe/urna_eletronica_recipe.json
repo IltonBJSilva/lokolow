@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:emerald_block",
+    "b": "lokolow:maigod",
+    "c": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "lokolow:urna_eletronica",
+    "count": 1
+  }
+}

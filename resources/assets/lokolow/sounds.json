@@ -94,5 +94,13 @@
         "stream": false
       }
     ]
+  },
+  "tema_lokolow": {
+    "sounds": [
+      {
+        "name": "lokolow:tema_lokolow",
+        "stream": true
+      }
+    ]
   }
 }
