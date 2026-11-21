@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Lokolow",
@@ -22,6 +22,7 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -35,30 +36,18 @@
       "value": -10092442,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "CUSTOM:LokolowCreativeTab"
-    },
+    "creativeTabs": [
+      "CUSTOM:LokolowCreativeTab"
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": "Items.NETHERITE_SWORD"
-    },
-    "equipmentOffHand": {
-      "value": ""
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "Items.NETHERITE_SWORD",
+    "equipmentOffHand": "",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 12,
@@ -79,7 +68,6 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -99,21 +87,11 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": "Blocks.EMERALD_ORE"
-    },
-    "livingSound": {
-      "value": ""
-    },
-    "hurtSound": {
-      "value": "CUSTOM:lokolow_choi"
-    },
-    "deathSound": {
-      "value": "CUSTOM:morte_de_lokolow"
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "mobDrop": "Blocks.EMERALD_ORE",
+    "livingSound": "",
+    "hurtSound": "CUSTOM:lokolow_choi",
+    "deathSound": "CUSTOM:morte_de_lokolow",
+    "stepSound": "",
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "Wolf",
@@ -121,14 +99,10 @@
     "breedable": true,
     "tameable": true,
     "breedTriggerItems": [
-      {
-        "value": "Blocks.EMERALD_BLOCK"
-      }
+      "Blocks.EMERALD_BLOCK"
     ],
     "ranged": false,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
@@ -139,10 +113,19 @@
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
+      "#is_overworld"
     ],
-    "spawnInDungeons": false
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": []
   }
 }

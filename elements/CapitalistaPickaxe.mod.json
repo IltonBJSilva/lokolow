@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
@@ -9,28 +9,28 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Capitalista Pickaxe",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "CUSTOM:LokolowCreativeTab"
-    },
-    "harvestLevel": 50,
+    "creativeTabs": [
+      "CUSTOM:LokolowCreativeTab"
+    ],
     "efficiency": 200.0,
     "attackSpeed": 30.0,
     "enchantability": 40,
     "damageVsEntity": 10.0,
     "usageCount": 5000,
-    "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:VeryCapitalista"
-      }
+      "CUSTOM:VeryCapitalista"
     ],
     "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": true
   }

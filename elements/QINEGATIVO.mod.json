@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "potioneffect",
   "definition": {
     "effectName": "QI Negativo",
@@ -9,12 +9,11 @@
       "falpha": 0.0
     },
     "isInstant": false,
-    "isBad": false,
-    "isBenefitical": false,
+    "mobEffectCategory": "NEUTRAL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
-    "onStarted": {
-      "name": "QINEGATIVOQuandoAPocaoIniciadaaplicada"
-    }
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": "QINEGATIVOQuandoAPocaoIniciadaaplicada"
   }
 }

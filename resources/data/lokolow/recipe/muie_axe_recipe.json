@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": "lokolow:muie",
+    "b": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "lokolow:muieaxe",
+    "count": 1
+  }
+}

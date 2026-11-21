@@ -1,47 +1,28 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.BLAZE_ROD"
-      },
-      {
-        "value": "Items.BLAZE_POWDER"
-      },
-      {
-        "value": "Items.BLAZE_ROD"
-      },
-      {
-        "value": "Items.BLAZE_POWDER"
-      },
-      {
-        "value": "Items.NETHER_STAR"
-      },
-      {
-        "value": "Items.BLAZE_POWDER"
-      },
-      {
-        "value": "Items.BLAZE_ROD"
-      },
-      {
-        "value": "Items.BLAZE_POWDER"
-      },
-      {
-        "value": "Items.BLAZE_ROD"
-      }
+      "Items.BLAZE_ROD",
+      "Items.BLAZE_POWDER",
+      "Items.BLAZE_ROD",
+      "Items.BLAZE_POWDER",
+      "Items.NETHER_STAR",
+      "Items.BLAZE_POWDER",
+      "Items.BLAZE_ROD",
+      "Items.BLAZE_POWDER",
+      "Items.BLAZE_ROD"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:SummonMoutain"
-    },
+    "recipeReturnStack": "CUSTOM:SummonMoutain",
     "name": "summon_moutain_recipe",
     "namespace": "mod"
   }

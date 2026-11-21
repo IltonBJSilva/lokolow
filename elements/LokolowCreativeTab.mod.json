@@ -1,11 +1,9 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "tab",
   "definition": {
     "name": "Lokolow Creative Tab",
-    "icon": {
-      "value": "Blocks.EMERALD_BLOCK"
-    },
+    "icon": "Blocks.EMERALD_BLOCK",
     "showSearch": false
   }
 }

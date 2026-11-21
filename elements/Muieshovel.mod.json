@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Hoe",
@@ -9,28 +9,28 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Muie hoe",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "CUSTOM:LokolowCreativeTab"
-    },
-    "harvestLevel": 100,
+    "creativeTabs": [
+      "CUSTOM:LokolowCreativeTab"
+    ],
     "efficiency": 5.0,
     "attackSpeed": 40.0,
     "enchantability": 5,
     "damageVsEntity": 3.8,
     "usageCount": 400,
-    "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:Muie"
-      }
+      "CUSTOM:Muie"
     ],
     "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": true
   }

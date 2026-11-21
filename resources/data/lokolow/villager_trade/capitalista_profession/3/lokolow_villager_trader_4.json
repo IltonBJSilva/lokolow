@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:blaze_rod",
+    "count": 30
+  },
+  "additional_wants": {
+    "id": "minecraft:diamond",
+    "count": 9
+  },
+  "gives": {
+    "id": "minecraft:netherite_chestplate"
+  },
+  "max_uses": 10,
+  "xp": 50,
+  "reputation_discount": 0.05
+}

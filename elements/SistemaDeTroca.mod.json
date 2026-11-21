@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -18,14 +18,11 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
-          "onTakenFromSlot": {
-            "name": "Remover"
-          },
-          "onStackTransfer": {
-            "name": "Remover"
-          },
+          "onTakenFromSlot": "Remover",
+          "onStackTransfer": "Remover",
           "x": 240,
-          "y": 73
+          "y": 73,
+          "locked": false
         }
       },
       {
@@ -42,11 +39,10 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": false,
-          "onSlotChanged": {
-            "name": "Itensquepodemsair"
-          },
+          "onSlotChanged": "Itensquepodemsair",
           "x": 155,
-          "y": 73
+          "y": 73,
+          "locked": false
         }
       },
       {
@@ -60,8 +56,10 @@
             "value": -12829636,
             "falpha": 0.0
           },
+          "hasShadow": false,
           "x": 184,
-          "y": 76
+          "y": 76,
+          "locked": false
         }
       },
       {
@@ -70,13 +68,12 @@
           "name": "button_empty",
           "text": ">",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Proximoitem"
-          },
+          "onClick": "Proximoitem",
           "width": 30,
           "height": 20,
           "x": 236,
-          "y": 96
+          "y": 96,
+          "locked": false
         }
       },
       {
@@ -85,13 +82,12 @@
           "name": "button_empty1",
           "text": "<",
           "isUndecorated": false,
-          "onClick": {
-            "name": "AnteriorItem"
-          },
+          "onClick": "AnteriorItem",
           "width": 30,
           "height": 20,
           "x": 236,
-          "y": 49
+          "y": 49,
+          "locked": false
         }
       },
       {
@@ -105,8 +101,10 @@
             "value": -12829636,
             "falpha": 0.0
           },
+          "hasShadow": false,
           "x": 138,
-          "y": 60
+          "y": 60,
+          "locked": false
         }
       }
     ],

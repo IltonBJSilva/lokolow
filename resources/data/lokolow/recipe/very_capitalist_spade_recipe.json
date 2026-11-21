@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " a ",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": "minecraft:dragon_egg",
+    "b": "minecraft:light_blue_shulker_box",
+    "c": "lokolow:capitalista_pickaxe",
+    "d": "minecraft:emerald_block",
+    "e": "lokolow:capitalistaaxe"
+  },
+  "result": {
+    "id": "lokolow:verycapitalistashovel",
+    "count": 1
+  }
+}

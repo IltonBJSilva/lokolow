@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lokolow:item/lokolowpresidente_spawn_egg_generated"
+  }
+}

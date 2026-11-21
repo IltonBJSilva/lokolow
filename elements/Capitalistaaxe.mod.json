@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -9,28 +9,28 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Capitalista Axe",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "CUSTOM:LokolowCreativeTab"
-    },
-    "harvestLevel": 100,
+    "creativeTabs": [
+      "CUSTOM:LokolowCreativeTab"
+    ],
     "efficiency": 100.0,
     "attackSpeed": 70.0,
     "enchantability": 100,
     "damageVsEntity": 80.0,
     "usageCount": 6000,
-    "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:VeryCapitalista"
-      }
+      "CUSTOM:VeryCapitalista"
     ],
     "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": true
   }

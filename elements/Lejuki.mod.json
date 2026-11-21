@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "livingentity",
   "definition": {
     "mobName": "Lejuki",
@@ -22,6 +22,7 @@
       "fixedValue": 1.0
     },
     "modelLayers": [],
+    "animations": [],
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -35,30 +36,18 @@
       "value": -16777216,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "CUSTOM:LokolowCreativeTab"
-    },
+    "creativeTabs": [
+      "CUSTOM:LokolowCreativeTab"
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
-    "equipmentMainHand": {
-      "value": "CUSTOM:Muieshovel"
-    },
-    "equipmentOffHand": {
-      "value": "CUSTOM:Muieaxe"
-    },
-    "equipmentHelmet": {
-      "value": ""
-    },
-    "equipmentBody": {
-      "value": ""
-    },
-    "equipmentLeggings": {
-      "value": ""
-    },
-    "equipmentBoots": {
-      "value": ""
-    },
+    "equipmentMainHand": "CUSTOM:Muieshovel",
+    "equipmentOffHand": "CUSTOM:Muieaxe",
+    "equipmentHelmet": "",
+    "equipmentBody": "",
+    "equipmentLeggings": "",
+    "equipmentBoots": "",
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 15,
@@ -79,7 +68,6 @@
       "fixedValue": true
     },
     "flyingMob": false,
-    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
@@ -99,21 +87,11 @@
     "immuneToAnvil": false,
     "immuneToWither": false,
     "immuneToDragonBreath": false,
-    "mobDrop": {
-      "value": "CUSTOM:Muieore"
-    },
-    "livingSound": {
-      "value": ""
-    },
-    "hurtSound": {
-      "value": "CUSTOM:muie_hit"
-    },
-    "deathSound": {
-      "value": "CUSTOM:muie_morte"
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "mobDrop": "CUSTOM:Muieore",
+    "livingSound": "",
+    "hurtSound": "CUSTOM:muie_hit",
+    "deathSound": "CUSTOM:muie_morte",
+    "stepSound": "",
     "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
@@ -121,14 +99,10 @@
     "breedable": false,
     "tameable": true,
     "breedTriggerItems": [
-      {
-        "value": "CUSTOM:Muie"
-      }
+      "CUSTOM:Muie"
     ],
     "ranged": true,
-    "rangedAttackItem": {
-      "value": ""
-    },
+    "rangedAttackItem": "",
     "rangedItemType": "Default item",
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
@@ -139,10 +113,19 @@
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
+      "#is_overworld"
     ],
-    "spawnInDungeons": true
+    "spawnInDungeons": true,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
+    "sensitiveToVibration": false,
+    "vibrationalEvents": []
   }
 }

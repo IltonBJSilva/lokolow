@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -9,28 +9,28 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Tome Axe",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "CUSTOM:LokolowCreativeTab"
-    },
-    "harvestLevel": 5,
+    "creativeTabs": [
+      "CUSTOM:LokolowCreativeTab"
+    ],
     "efficiency": 5.0,
     "attackSpeed": 4.0,
     "enchantability": 2,
     "damageVsEntity": 10.0,
     "usageCount": 1000,
-    "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
-      {
-        "value": "CUSTOM:Tome"
-      }
+      "CUSTOM:Tome"
     ],
     "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": true
   }

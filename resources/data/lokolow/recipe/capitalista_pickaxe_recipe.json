@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " b "
+  ],
+  "key": {
+    "a": "lokolow:very_capitalista",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "lokolow:capitalista_pickaxe",
+    "count": 1
+  }
+}

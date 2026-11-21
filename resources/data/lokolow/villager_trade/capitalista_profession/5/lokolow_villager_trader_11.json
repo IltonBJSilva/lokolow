@@ -1,0 +1,15 @@
+{
+  "wants": {
+    "id": "minecraft:diamond_axe"
+  },
+  "additional_wants": {
+    "id": "lokolow:tome",
+    "count": 2
+  },
+  "gives": {
+    "id": "lokolow:tomeaxe"
+  },
+  "max_uses": 10,
+  "xp": 300,
+  "reputation_discount": 0.05
+}

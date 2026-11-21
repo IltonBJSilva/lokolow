@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block"
+  },
+  "additional_wants": {
+    "id": "minecraft:stick",
+    "count": 30
+  },
+  "gives": {
+    "id": "minecraft:emerald",
+    "count": 12
+  },
+  "max_uses": 5,
+  "xp": 20,
+  "reputation_discount": 0.15
+}

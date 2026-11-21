@@ -1,47 +1,28 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "unlockingItems": [],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Tome"
-      },
-      {
-        "value": "CUSTOM:Tome"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Tome"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Tome",
+      "CUSTOM:Tome",
+      "",
+      "CUSTOM:Tome",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Tomeaxe"
-    },
+    "recipeReturnStack": "CUSTOM:Tomeaxe",
     "name": "tome_axe_recipe",
     "namespace": "mod"
   }

@@ -1,14 +1,10 @@
 {
-  "_fv": 57,
+  "_fv": 89,
   "_type": "villagerprofession",
   "definition": {
     "displayName": "Capitalista Profession",
-    "pointOfInterest": {
-      "value": "Blocks.EMERALD_BLOCK"
-    },
-    "actionSound": {
-      "value": "block.anvil.fall"
-    },
+    "pointOfInterest": "Blocks.EMERALD_BLOCK",
+    "actionSound": "block.anvil.fall",
     "hat": "Partial",
     "professionTextureFile": "skinlokolowvillager.png",
     "zombifiedProfessionTextureFile": "zombieskinlokolowvillager.png"

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:blaze_rod",
+    "b": "minecraft:blaze_powder",
+    "c": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "lokolow:summon_moutain",
+    "count": 1
+  }
+}

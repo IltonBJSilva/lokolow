@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "lokolow:very_capitalista",
+    "count": 10
+  },
+  "additional_wants": {
+    "id": "minecraft:end_stone",
+    "count": 64
+  },
+  "gives": {
+    "id": "minecraft:elytra"
+  },
+  "max_uses": 10,
+  "xp": 400,
+  "reputation_discount": 0.05
+}
