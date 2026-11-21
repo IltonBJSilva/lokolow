@@ -2,9 +2,9 @@
   "_fv": 89,
   "_type": "villagerprofession",
   "definition": {
-    "displayName": "Capitalista Profession",
+    "displayName": "Lokolow Capitalista",
     "pointOfInterest": "Blocks.EMERALD_BLOCK",
-    "actionSound": "block.anvil.fall",
+    "actionSound": "CUSTOM:capitalism_honestamente",
     "hat": "Partial",
     "professionTextureFile": "skinlokolowvillager.png",
     "zombifiedProfessionTextureFile": "zombieskinlokolowvillager.png"

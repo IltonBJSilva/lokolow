@@ -740,22 +740,16 @@
       "registry_name": "lokolow_villager_trader",
       "metadata": {
         "files": [
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_14.json",
+          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/2/lokolow_villager_trader_2.json",
+          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/1/lokolow_villager_trader_0.json",
           "src/main/resources/data/lokolow/villager_trade/capitalista_profession/3/lokolow_villager_trader_5.json",
           "src/main/resources/data/lokolow/villager_trade/capitalista_profession/1/lokolow_villager_trader_1.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_11.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/4/lokolow_villager_trader_7.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_8.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/2/lokolow_villager_trader_2.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_12.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/1/lokolow_villager_trader_0.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_15.json",
           "src/main/resources/data/lokolow/villager_trade/capitalista_profession/3/lokolow_villager_trader_4.json",
           "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_9.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_10.json",
           "src/main/resources/data/lokolow/villager_trade/capitalista_profession/4/lokolow_villager_trader_6.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_13.json",
-          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/2/lokolow_villager_trader_3.json"
+          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/2/lokolow_villager_trader_3.json",
+          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/4/lokolow_villager_trader_7.json",
+          "src/main/resources/data/lokolow/villager_trade/capitalista_profession/5/lokolow_villager_trader_8.json"
         ]
       },
       "path": "~/GUI"
@@ -1004,72 +998,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "GritoCapitalismo",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grito_capitalismo",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/lokolow/procedures/GritoCapitalismoProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "LejukiVillagerTroca",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lejuki_villager_troca",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/lokolow/procedures/LejukiVillagerTrocaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "sourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
       "name": "InvocarPresidente",
       "type": "procedure",
       "compiles": true,
@@ -1243,40 +1171,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "LokolowVillager",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lokolow_villager",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lokolow/models/item/lokolow_villager_spawn_egg.json",
-          "src/main/resources/data/lokolow/neoforge/biome_modifier/lokolow_villager_biome_modifier.json",
-          "src/main/resources/assets/lokolow/items/lokolow_villager_spawn_egg.json",
-          "src/main/java/net/mcreator/lokolow/entity/LokolowVillagerEntity.java",
-          "src/main/java/net/mcreator/lokolow/client/renderer/LokolowVillagerRenderer.java"
-        ]
-      },
-      "path": "~/Mobs"
-    },
-    {
-      "name": "LejukiVillager",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lejuki_villager",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/lokolow/items/lejuki_villager_spawn_egg.json",
-          "src/main/java/net/mcreator/lokolow/client/renderer/LejukiVillagerRenderer.java",
-          "src/main/java/net/mcreator/lokolow/entity/LejukiVillagerEntity.java",
-          "src/main/resources/assets/lokolow/models/item/lejuki_villager_spawn_egg.json",
-          "src/main/resources/data/lokolow/neoforge/biome_modifier/lejuki_villager_biome_modifier.json"
         ]
       },
       "path": "~/Mobs"
@@ -1496,6 +1390,46 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "LejukiProfession",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lejuki_profession",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/trade_set/lejuki_profession/level_4.json",
+          "src/main/resources/data/lokolow/trade_set/lejuki_profession/level_3.json",
+          "src/main/resources/assets/lokolow/textures/entity/villager/profession/lejuki_profession.png.mcmeta",
+          "src/main/resources/data/lokolow/trade_set/lejuki_profession/level_2.json",
+          "src/main/resources/data/lokolow/trade_set/lejuki_profession/level_1.json",
+          "src/main/resources/data/lokolow/trade_set/lejuki_profession/level_5.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "LejukiVillagerTrader",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lejuki_villager_trader",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/2/lejuki_villager_trader_2.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/5/lejuki_villager_trader_9.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/3/lejuki_villager_trader_4.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/1/lejuki_villager_trader_1.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/2/lejuki_villager_trader_3.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/1/lejuki_villager_trader_0.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/3/lejuki_villager_trader_5.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/5/lejuki_villager_trader_8.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/4/lejuki_villager_trader_6.json",
+          "src/main/resources/data/lokolow/villager_trade/lejuki_profession/4/lejuki_villager_trader_7.json"
+        ]
+      },
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -1647,14 +1581,20 @@
       "~LokolowVillagerTrader@lokolow_villager_trader_6"
     ],
     "VILLAGER_TRADES:lokolow:capitalista_profession/level_5": [
-      "~LokolowVillagerTrader@lokolow_villager_trader_15",
-      "~LokolowVillagerTrader@lokolow_villager_trader_14",
-      "~LokolowVillagerTrader@lokolow_villager_trader_13",
-      "~LokolowVillagerTrader@lokolow_villager_trader_12",
-      "~LokolowVillagerTrader@lokolow_villager_trader_11",
-      "~LokolowVillagerTrader@lokolow_villager_trader_10",
       "~LokolowVillagerTrader@lokolow_villager_trader_9",
       "~LokolowVillagerTrader@lokolow_villager_trader_8"
+    ],
+    "ITEMS:lokolow:maigodpickaxe_repair_items": [
+      "~Maigodpickaxe@CUSTOM:Maigod"
+    ],
+    "ITEMS:lokolow:esmeralda_pickaxe_repair_items": [
+      "~EsmeraldaPickaxe@Items.EMERALD"
+    ],
+    "ITEMS:lokolow:esmeralda_axe_repair_items": [
+      "~EsmeraldaAxe@Items.EMERALD"
+    ],
+    "ITEMS:lokolow:esmeralda_shovel_repair_items": [
+      "~EsmeraldaShovel@Items.EMERALD"
     ],
     "ENTITIES:minecraft:arthropod": [
       "~Lokolowpresidente@CUSTOM:Lokolowpresidente",
@@ -1699,9 +1639,6 @@
       "~Maigodpickaxe@CUSTOM:Maigodpickaxe",
       "~CapitalistaPickaxe@CUSTOM:CapitalistaPickaxe"
     ],
-    "ITEMS:lokolow:maigodpickaxe_repair_items": [
-      "~Maigodpickaxe@CUSTOM:Maigod"
-    ],
     "ITEMS:minecraft:hoes": [
       "~Muieshovel@CUSTOM:Muieshovel"
     ],
@@ -1710,19 +1647,31 @@
       "~Verycapitalistashovel@CUSTOM:Verycapitalistashovel"
     ],
     "POINTS_OF_INTEREST:minecraft:acquirable_job_site": [
+      "~LejukiProfession@CUSTOM:LejukiProfession",
       "~CapitalistaProfession@CUSTOM:CapitalistaProfession"
     ],
     "ITEMS:minecraft:music_discs": [
       "~DiscoLokolow@CUSTOM:DiscoLokolow"
     ],
-    "ITEMS:lokolow:esmeralda_pickaxe_repair_items": [
-      "~EsmeraldaPickaxe@Items.EMERALD"
+    "VILLAGER_TRADES:lokolow:lejuki_profession/level_1": [
+      "~LejukiVillagerTrader@lejuki_villager_trader_1",
+      "~LejukiVillagerTrader@lejuki_villager_trader_0"
     ],
-    "ITEMS:lokolow:esmeralda_axe_repair_items": [
-      "~EsmeraldaAxe@Items.EMERALD"
+    "VILLAGER_TRADES:lokolow:lejuki_profession/level_2": [
+      "~LejukiVillagerTrader@lejuki_villager_trader_3",
+      "~LejukiVillagerTrader@lejuki_villager_trader_2"
     ],
-    "ITEMS:lokolow:esmeralda_shovel_repair_items": [
-      "~EsmeraldaShovel@Items.EMERALD"
+    "VILLAGER_TRADES:lokolow:lejuki_profession/level_3": [
+      "~LejukiVillagerTrader@lejuki_villager_trader_5",
+      "~LejukiVillagerTrader@lejuki_villager_trader_4"
+    ],
+    "VILLAGER_TRADES:lokolow:lejuki_profession/level_4": [
+      "~LejukiVillagerTrader@lejuki_villager_trader_7",
+      "~LejukiVillagerTrader@lejuki_villager_trader_6"
+    ],
+    "VILLAGER_TRADES:lokolow:lejuki_profession/level_5": [
+      "~LejukiVillagerTrader@lejuki_villager_trader_9",
+      "~LejukiVillagerTrader@lejuki_villager_trader_8"
     ]
   },
   "tab_element_order": {},
@@ -1769,7 +1718,7 @@
       "entity.lokolow.capitalista": "Capitalista",
       "subtitles.morte_rubio": "",
       "item.lokolow.lejuki_spawn_egg": "Lejuki Spawn Egg",
-      "entity.minecraft.villager.lokolow.capitalista_profession": "Capitalista Profession",
+      "entity.minecraft.villager.lokolow.capitalista_profession": "Lokolow Capitalista",
       "item.lokolow.lokolowpresidente_spawn_egg": "Lokolow Presidente Spawn Egg",
       "subtitles.muie_morte": "",
       "subtitles.hit_no_capitalista": "",
@@ -1790,11 +1739,7 @@
       "item.lokolow.maigodeore": "Maigodeore",
       "item.lokolow.muieore": "Muieore",
       "item.lokolow.tomeore": "Tomeore",
-      "entity.villager.lokolow.capitalista_profession": "Capitalista Profession",
-      "entity.lokolow.lokolow_villager": "Lokolow Villager",
-      "item.lokolow.lokolow_villager_spawn_egg": "Lokolow Villager Spawn Egg",
-      "entity.lokolow.lejuki_villager": "Lejuki Villager",
-      "item.lokolow.lejuki_villager_spawn_egg": "Lejuki Villager Spawn Egg",
+      "entity.villager.lokolow.capitalista_profession": "Lokolow Capitalista",
       "item.lokolow.urna_eletronica": "Urna Eletronica",
       "item.lokolow.tinta_arco_iris": "Tinta Arco-Iris",
       "item.lokolow.disco_lokolow": "Disco: Tema do Lokolow",
@@ -1803,7 +1748,9 @@
       "item.lokolow.esmeralda_shovel": "Pa de Esmeralda",
       "block.lokolow.bloco_da_sorte": "Bloco da Sorte do Lokolow",
       "item.lokolow.bloco_da_sorte": "Bloco da Sorte do Lokolow",
-      "item.lokolow.disco_lokolow.desc": "Lokolow - Tema do Mod"
+      "item.lokolow.disco_lokolow.desc": "Lokolow - Tema do Mod",
+      "entity.villager.lokolow.lejuki_profession": "Lejuki Lenhadora",
+      "entity.minecraft.villager.lokolow.lejuki_profession": "Lejuki Lumberjack"
     },
     "pt_br": {
       "block.lokolow.capitalistaore": "Minério de Capitalista",
@@ -1847,7 +1794,7 @@
       "entity.lokolow.capitalista": "Capitalista",
       "subtitles.morte_rubio": "",
       "item.lokolow.lejuki_spawn_egg": "Ovo de Lejuki",
-      "entity.minecraft.villager.lokolow.capitalista_profession": "Capitalista",
+      "entity.minecraft.villager.lokolow.capitalista_profession": "Lokolow Capitalista",
       "item.lokolow.lokolowpresidente_spawn_egg": "Ovo de Lokolow Presidente",
       "subtitles.muie_morte": "",
       "subtitles.hit_no_capitalista": "",
@@ -1868,11 +1815,7 @@
       "item.lokolow.maigodeore": "Minério de Maigod",
       "item.lokolow.muieore": "Minério de Muie",
       "item.lokolow.tomeore": "Minério de Tome",
-      "entity.villager.lokolow.capitalista_profession": "Capitalista",
-      "entity.lokolow.lokolow_villager": "Lokolow Villager",
-      "item.lokolow.lokolow_villager_spawn_egg": "Ovo de Lokolow Villager",
-      "entity.lokolow.lejuki_villager": "Lejuki Villager",
-      "item.lokolow.lejuki_villager_spawn_egg": "Ovo de Lejuki Villager",
+      "entity.villager.lokolow.capitalista_profession": "Lokolow Capitalista",
       "item.lokolow.urna_eletronica": "Urna Eletrônica",
       "item.lokolow.tinta_arco_iris": "Tinta Arco-Íris",
       "item.lokolow.disco_lokolow": "Disco: Tema do Lokolow",
@@ -1881,7 +1824,9 @@
       "item.lokolow.esmeralda_shovel": "Pá de Esmeralda",
       "block.lokolow.bloco_da_sorte": "Bloco da Sorte do Lokolow",
       "item.lokolow.bloco_da_sorte": "Bloco da Sorte do Lokolow",
-      "item.lokolow.disco_lokolow.desc": "Lokolow - Tema do Mod"
+      "item.lokolow.disco_lokolow.desc": "Lokolow - Tema do Mod",
+      "entity.villager.lokolow.lejuki_profession": "Lejuki Lenhadora",
+      "entity.minecraft.villager.lokolow.lejuki_profession": "Lejuki Lenhadora"
     }
   },
   "metadata": {

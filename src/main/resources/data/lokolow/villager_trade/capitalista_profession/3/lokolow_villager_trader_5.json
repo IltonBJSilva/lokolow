@@ -1,0 +1,16 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block",
+    "count": 10
+  },
+  "additional_wants": {
+    "id": "minecraft:diamond_block",
+    "count": 10
+  },
+  "gives": {
+    "id": "lokolow:summon_moutain"
+  },
+  "max_uses": 5,
+  "xp": 60,
+  "reputation_discount": 0.05
+}

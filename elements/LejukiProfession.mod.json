@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Lejuki Lenhadora",
+    "pointOfInterest": "Blocks.HAY_BLOCK",
+    "actionSound": "CUSTOM:muie_hit",
+    "hat": "Partial",
+    "professionTextureFile": "lejuki_profissao.png",
+    "zombifiedProfessionTextureFile": "lejuki_profissao.png"
+  }
+}

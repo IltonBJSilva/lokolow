@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 6
+  },
+  "gives": {
+    "id": "minecraft:iron_chestplate"
+  },
+  "max_uses": 10,
+  "xp": 20,
+  "reputation_discount": 0.05
+}

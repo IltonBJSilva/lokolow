@@ -1,0 +1,12 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 6
+  },
+  "gives": {
+    "id": "lokolow:muiehoe"
+  },
+  "max_uses": 5,
+  "xp": 25,
+  "reputation_discount": 0.05
+}

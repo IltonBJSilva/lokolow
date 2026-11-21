@@ -1,0 +1,31 @@
+package net.mcreator.lokolow.item;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+
+import net.mcreator.lokolow.procedures.InvocarPresidenteProcedure;
+
+public class UrnaEletronicaItem extends Item {
+	public UrnaEletronicaItem(Item.Properties properties) {
+		super(properties.rarity(Rarity.EPIC).stacksTo(1));
+	}
+
+	@Override
+	public InteractionResult use(Level world, Player entity, InteractionHand hand) {
+		InteractionResult ar = super.use(world, entity, hand);
+		InvocarPresidenteProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
+		return ar;
+	}
+
+	@Override
+	public InteractionResult useOn(UseOnContext context) {
+		super.useOn(context);
+		InvocarPresidenteProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
+		return InteractionResult.SUCCESS;
+	}
+}

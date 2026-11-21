@@ -88,7 +88,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": "CUSTOM:CapitalistaNuggets",
-    "livingSound": "CUSTOM:capitalism_honestamente",
+    "livingSound": "",
     "hurtSound": "CUSTOM:hit_no_capitalista",
     "deathSound": "CUSTOM:capitalista_hit",
     "stepSound": "",

@@ -1,0 +1,14 @@
+{
+  "wants": {
+    "id": "minecraft:echo_shard"
+  },
+  "additional_wants": {
+    "id": "minecraft:nether_star"
+  },
+  "gives": {
+    "id": "minecraft:dragon_egg"
+  },
+  "max_uses": 1,
+  "xp": 100,
+  "reputation_discount": 0.05
+}

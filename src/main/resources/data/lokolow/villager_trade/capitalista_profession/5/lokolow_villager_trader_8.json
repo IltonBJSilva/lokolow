@@ -1,0 +1,15 @@
+{
+  "wants": {
+    "id": "minecraft:emerald_block",
+    "count": 16
+  },
+  "additional_wants": {
+    "id": "minecraft:paper"
+  },
+  "gives": {
+    "id": "lokolow:urna_eletronica"
+  },
+  "max_uses": 3,
+  "xp": 100,
+  "reputation_discount": 0.05
+}
